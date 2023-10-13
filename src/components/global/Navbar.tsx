@@ -12,7 +12,7 @@ const navLink = [
   },
   {
     name: "RTS Solutions",
-    url: "",
+    url: "/rts_solutions",
   },
   {
     name: "FAQ",

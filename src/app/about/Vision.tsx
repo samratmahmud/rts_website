@@ -35,19 +35,17 @@ function Vision() {
           ))}
         </div>
       </div>
-      <div className="relative z-0 mb-14">
-        <img
-          className="absolute -z-10 -mt-10 w-full"
-          src="/picture/Vector (3).svg"
-          alt=""
-        />
-        <div className="text-18xl font-bold flex justify-center lg:pt-[14%] lg:pb-[18%] pb-[12%] pt-[12%]">
+      <div
+        className="bg-no-repeat bg-cover mb-14 -mt-16"
+        style={{backgroundImage: `url('/picture/Vector.png')`}}
+      >
+        <div className="text-18xl font-bold text-center pt-[313px] pb-[199px]">
           Vision & Mission
         </div>
       </div>
       <div className="container">
         <div className="max-w-[899px] m-auto mb-[160px]">
-          <div className="text-8xl font-bold text-slate-900 mb-14 mt-[86%">
+          <div className="text-8xl font-bold text-slate-900 mb-14">
             “Sustainable development is development that meets the needs of the
             present without compromising the ability of future generations to
             meet their own needs.” - Our Common Future 1987 WCED
@@ -75,6 +73,33 @@ function Vision() {
             promote textile recycling. <br />
             <br /> We invite you to join us in creating a sustainable future for
             all.
+          </div>
+        </div>
+      </div>
+      <div className="bg-slate-900">
+        <div className="container">
+          <div className="flex gap-10 justify-between items-center py-28">
+            <div className="max-w-[575px]">
+              <div className="flex">
+                <div className="text-21xl font-medium text-emerald-600 -mt-5">
+                  “
+                </div>
+                <div className="text-8xl font-medium text-white mb-7">
+                  At Ri-Thai, we strive to foster and share with our customers
+                  the sustainable value of our products. In 2012 we launched the
+                  MonoGreenⓇ line of eco-friendly monofilament yarns. We are now
+                  proud to introduce RTSTM, an innovative solution that
+                  exemplifies our dedication to circularity and sustainability
+                  in the textile industry.
+                </div>
+              </div>
+              <div className="text-4xl font-bold text-white text-right">
+                - RTS Team
+              </div>
+            </div>
+            <div>
+              <img src="/picture/image 4.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
