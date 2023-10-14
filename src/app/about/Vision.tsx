@@ -15,7 +15,10 @@ const cards = [
 
 function Vision() {
   return (
-    <div className="mt-[180px]">
+    <div className="">
+      <div className="mb-9 -mt-[190px]">
+        <img src="/picture/Vector (4).svg" alt="" />
+      </div>
       <div className="container px-10">
         <div className="text-8xl font-bold text-slate-900 mb-32">
           Ri-Thai has been a leader in synthetic fibers for over 45 years. The

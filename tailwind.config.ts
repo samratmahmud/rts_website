@@ -20,7 +20,7 @@ const config: Config = {
     fontSize: {
       xs: ["12px", {lineHeight: "2em"}],
       sm: ["14px", {}],
-      md: ["16px", {lineHeight: "1.5em", letterSpacing: "0.02em"}],
+      md: ["16px", {lineHeight: "1.5em", letterSpacing: "-0.02em"}],
       base: ["17px", {}],
       lg: ["18px", {lineHeight: "1.44em"}],
       xl: ["19px", {lineHeight: "1.26em"}],
@@ -65,7 +65,7 @@ const config: Config = {
       sm: "600px",
       md: "768px",
       lg: "1020px",
-      xl: "1245px",
+      xl: "1278px",
     },
   },
   plugins: [],

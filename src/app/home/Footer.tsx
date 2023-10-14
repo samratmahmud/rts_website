@@ -1,4 +1,5 @@
 import Button from "@/components/common/Button";
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -20,9 +21,9 @@ function Footer() {
       <div className="bg-emerald-600">
         <div className="container">
           <div className="flex flex-row gap-5 justify-between pt-[70px] pr-[120px] pl-20 pb-11">
-            <div role="button">
+            <Link href={"/"}>
               <img src="/picture/Frame.svg" alt="" />
-            </div>
+            </Link>
             <div className="max-w-[333px]">
               <div
                 role="button"
