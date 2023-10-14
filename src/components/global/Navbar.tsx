@@ -16,7 +16,7 @@ const navLink = [
   },
   {
     name: "FAQ",
-    url: "",
+    url: "/solutions_three",
   },
   {
     name: "Contact",
