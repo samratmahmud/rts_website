@@ -20,7 +20,7 @@ const navLink = [
   },
   {
     name: "Contact",
-    url: "",
+    url: "/solutions_four",
   },
 ];
 

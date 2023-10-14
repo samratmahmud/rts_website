@@ -2,6 +2,8 @@ import Navbar from "@/components/global/Navbar";
 import React from "react";
 import Header_three from "./Header_three";
 import Card_three from "./Card_three";
+import SolvingProblem from "./SolvingProblem";
+import Footer from "../home/Footer";
 
 function page() {
   return (
@@ -9,6 +11,8 @@ function page() {
       <Navbar />
       <Header_three />
       <Card_three />
+      <SolvingProblem />
+      <Footer />
     </div>
   );
 }
