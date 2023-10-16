@@ -28,7 +28,7 @@ function Card_two() {
   return (
     <div className="">
       <div className="-mt-40 mb-12">
-        <img src="/picture/Vector (4).svg" alt="" />
+        <img className="w-full" src="/picture/Vector (4).svg" alt="" />
       </div>
       <div className="container">
         <div className="flex gap-7 items-center mb-32">

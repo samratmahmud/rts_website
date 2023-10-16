@@ -3,6 +3,8 @@ import React from "react";
 import HeaderFour from "./HeaderFour";
 import CardsFour from "./CardsFour";
 import PlasticMono from "./PlasticMono";
+import Application from "./Application";
+import Footer from "../home/Footer";
 
 function page() {
   return (
@@ -11,6 +13,8 @@ function page() {
       <HeaderFour />
       <CardsFour />
       <PlasticMono />
+      <Application />
+      <Footer />
     </div>
   );
 }
