@@ -17,7 +17,7 @@ function Vision() {
   return (
     <div className="">
       <div className="mb-9 -mt-[190px]">
-        <img src="/picture/Vector (4).svg" alt="" />
+        <img className="w-full" src="/picture/Vector (4).svg" alt="" />
       </div>
       <div className="container px-10">
         <div className="text-8xl font-bold text-slate-900 mb-32">

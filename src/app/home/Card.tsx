@@ -31,7 +31,7 @@ function Card() {
               <Button name="Find out More" />
             </div>
           </div>
-          <div className="max-w-[655px] -mr-4">
+          <div className="w-full -mr-4">
             <img src="/picture/AdobeStock_490732559_Preview.png" alt="" />
           </div>
         </div>
@@ -64,7 +64,7 @@ function Card() {
             </div>
           </div>
           <div className="absolute -bottom-14 -mx-4">
-            <img src="/picture/Vector.svg" alt="" />
+            <img className="w-full" src="/picture/Vector.svg" alt="" />
           </div>
         </div>
 

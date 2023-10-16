@@ -14,8 +14,8 @@ function CardTop() {
             in the textile industry.
           </div>
         </div>
-        <div className="pt-20 absolute -z-10 top-0 -ml-4">
-          <img src="/picture/Vector.svg" alt="" />
+        <div className="pt-20 absolute -z-10 top-0 left-0 right-0">
+          <img className="w-full" src="/picture/Vector.svg" alt="" />
         </div>
       </div>
     </div>
