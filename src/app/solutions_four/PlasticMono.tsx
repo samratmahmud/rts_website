@@ -127,8 +127,16 @@ function PlasticMono() {
               </div>
             </div>
           </div>
-          <div className="-mx-28 -mt-20">
-            <img className="w-full" src="/picture/Mask group (13).png" alt="" />
+        </div>
+      </div>
+      <div className="relative">
+        <div className="-mt-20">
+          <img className="w-full" src="/picture/Mask group (13).png" alt="" />
+          <div className="container">
+            <div className="top-0 absolute text-11xl font-medium text-white pt-[30%] max-w-[900px] m-auto left-0 right-0 text-center">
+              Despite the advantages of mono-material design, many challenges
+              remain.
+            </div>
           </div>
         </div>
       </div>
