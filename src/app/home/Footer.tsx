@@ -7,7 +7,7 @@ function Footer() {
     <div>
       <div className="bg- bg-slate-900">
         <div className="container pt-[77px] pb-14">
-          <div className="text-15xl font-medium text-white max-w-[900px] m-auto text-center mb-12">
+          <div className="md:text-15xl text-4xl font-medium text-white max-w-[900px] m-auto text-center md:mb-12 mb-14">
             Join RTS to build a textile circular economy and beyond
           </div>
           <div
@@ -20,28 +20,32 @@ function Footer() {
       </div>
       <div className="bg-emerald-600">
         <div className="container">
-          <div className="flex flex-row gap-5 justify-between pt-[70px] pr-[120px] pl-20 pb-11">
-            <Link href={"/"}>
+          <div className="flex md:flex-row flex-col gap-[107px] justify-between pt-[70px] md:pb-11 pb-6">
+            <Link href={"/"} className="m-auto md:ml-0 md:mt-0">
               <img src="/picture/Frame.svg" alt="" />
             </Link>
-            <div className="max-w-[333px]">
+            <div className="md:max-w-[333px]">
               <div
                 role="button"
-                className="text-2xl font-bold text-slate-900 mb-5"
+                className="md:text-2xl text-xl font-bold text-slate-900 md:mb-5 mb-3 text-center md:text-left"
               >
                 info@retain2sustain.com
               </div>
-              <div className="text-md font-medium text-slate-900 mb-5">
+              <div className="text-md font-medium text-slate-900 md:mb-5 text-center md:text-left">
                 7th Fl., 186 Nanking E. Rd., Sec. 4, Songshan Dist., Taipei
                 105407, Taiwan
               </div>
               <div
                 role="button"
-                className="text-md font-medium text-slate-900 mb-7"
+                className="text-md font-medium text-slate-900 md:mb-7 mb-14 flex md:flex-col justify-center gap-2 md:gap-0"
               >
-                TEL 886-2-25786188 <h1>FAX 886-2-25796388</h1>
+                <p>TEL 886-2-25786188</p> <p className="md:hidden"> / </p>{" "}
+                <p>FAX 886-2-25796388</p>
               </div>
-              <div className="text-md font-medium text-slate-900">
+              <div
+                role="button"
+                className="md:text-md text-xs font-medium text-slate-900 text-center  md:text-left"
+              >
                 Copyright © 2023 RTS. All Rights Reserved.
               </div>
             </div>

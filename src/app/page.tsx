@@ -7,8 +7,8 @@ import Footer from "./home/Footer";
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <Header />
+      {/* <Navbar />
+      <Header /> */}
       <Card />
       <Article />
       <Footer />

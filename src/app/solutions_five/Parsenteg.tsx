@@ -3,7 +3,10 @@ import React from "react";
 function Parsenteg() {
   return (
     <div>
-      <div style={{backgroundImage: `url('/picture/Rectangle 63.png')`}}>
+      <div
+        className="w-full"
+        style={{backgroundImage: `url('/picture/Rectangle 63.png')`}}
+      >
         <div className="container">
           <div className="text-10xl text-white py-28 max-w-[505px]">
             We strive to produce high-quality monofilaments while also
@@ -13,7 +16,7 @@ function Parsenteg() {
       </div>
       <div className="bg-[rgba(11,_11,_43,_0.05)]">
         <div className="container">
-          <div className="flex gap-14 justify-between items-center pt-[109px] pb-[102px]">
+          <div className="flex lg:flex-row flex-col gap-14 justify-between items-center pt-[109px] pb-[102px]">
             <div>
               <div className="text-8xl font-bold text-slate-900 max-w-[304px] text-center m-auto mb-3">
                 Microfiber shedding rate detection

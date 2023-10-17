@@ -3,6 +3,9 @@ import React from "react";
 import HeaderFive from "./HeaderFive";
 import CardFive from "./CardFive";
 import Parsenteg from "./Parsenteg";
+import TestingCard from "./TestingCard";
+import GreenBg from "./GreenBg";
+import Footer from "../home/Footer";
 
 function page() {
   return (
@@ -11,6 +14,9 @@ function page() {
       <HeaderFive />
       <CardFive />
       <Parsenteg />
+      <TestingCard />
+      <GreenBg />
+      <Footer />
     </div>
   );
 }

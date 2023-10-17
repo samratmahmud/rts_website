@@ -55,6 +55,12 @@ const config: Config = {
       "roc-grotesk": ["'Roc Grotesk'", ...fontFamily.sans],
       inter: ["'Inter'", ...fontFamily.sans],
     },
+    backgroundImage: {
+      homePage: "url('/picture/Mask group.png')",
+      homePageMV: "url('/picture/Group 185.png')",
+      // 10: "url('picture/Vector (8).svg')",
+      // 20: "url('picture/Vector (9).svg')",
+    },
     container: {
       center: true,
       padding: {

@@ -1,21 +1,13 @@
-import {url} from "inspector";
 import React from "react";
 
 function Header() {
   return (
-    <div
-      className="bg-no-repeat bg-cover"
-      style={{backgroundImage: `url('/picture/Mask group.png')`}}
-    >
-      <div className="">
-        <div className="mb-10 pt-[300px]">
-          <img
-            className="max-w-[400px] m-auto"
-            src="/picture/Group (1).svg"
-            alt=""
-          />
+    <div className="bg-no-repeat bg-cover md:bg-homePage bg-homePageMV">
+      <div className="container">
+        <div className="md:mb-16 mb-12 md:pt-[295px] pt-[144px]">
+          <img className="m-auto" src="/picture/Group (1).svg" alt="" />
         </div>
-        <div className="text-15xl font-medium text-white shadow-sm pb-[324px] text-center">
+        <div className="md:text-15xl text-6xl font-medium text-white shadow-sm md:pb-[324px] pb-[228px] text-center">
           Textile Circularity and Beyond
         </div>
       </div>
