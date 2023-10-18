@@ -7,7 +7,7 @@ import "react-modern-drawer/dist/index.css";
 const navLink = [
   {
     name: "About Retain to Sustain",
-    url: "/solutions_five",
+    url: "/about",
   },
   {
     name: "Issues",
@@ -36,9 +36,9 @@ function Navbar() {
   return (
     <div className="container ">
       <div className="relative">
-        <div className="flex lg:justify-between justify-end absolute z-[1020] top-0 items-center gap-5 left-0 right-0 px-6">
-          <Link href={"/"} className="mt-11 mb-16 hidden lg:block">
-            <img src="/picture/Group.svg" alt="" />
+        <div className="flex justify-between absolute lg:z-[1020] top-0 items-center gap-5 left-0 right-0 lg:px-6">
+          <Link href={"/"} className="lg:mt-11 mt-6 lg:mb-16 mb-8">
+            <img className="h-[26px]" src="/picture/Group.svg" alt="" />
           </Link>
           <div className="hidden lg:block">
             <div className="flex gap-11">
@@ -53,7 +53,7 @@ function Navbar() {
               ))}
             </div>
           </div>
-          <div onClick={toggle} className="lg:hidden w-8 h-4 pt-8">
+          <div onClick={toggle} className="lg:hidden w-8 h-4">
             <img className="w-full" src="/picture/Group 254 (1).svg" alt="" />
           </div>
         </div>

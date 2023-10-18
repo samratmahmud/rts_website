@@ -4,11 +4,11 @@ import Button from "./Button";
 
 function InputFile() {
   return (
-    <div className="flex lg:gap-12 gap-5 items-center">
+    <div className="lg:flex lg:gap-12 gap-5 items-center">
       <div>
         <img src="/picture/AdobeStock_354009182_Preview.png" alt="" />
       </div>
-      <div className="pt-20 pb-10 pr-4">
+      <div className="pt-20 pb-10 lg:pr-4 mx-5 lg:mx-0">
         <div className="lg:text-12xl text-7xl font-bold text-slate-900 mb-1 whitespace-nowrap lg:w-[563px]">
           Send us a message
         </div>

@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         black: {"0": "#000000"},
-        slate: {"900": "#0B0B2B"},
+        slate: {"200": "#D9D9D9", "900": "#0B0B2B"},
         gray: {"50": "#ffffff"},
         emerald: {"600": "#00E100"},
         pink: {"200": "#FAC3D4"},
@@ -62,8 +62,6 @@ const config: Config = {
       card2: "url('/picture/Mask group (27).png')",
       card3: "url('/picture/Group 189.png')",
       card4: "url('/picture/RTS_RetainToSustain12 1.png')",
-      // 10: "url('picture/Vector (8).svg')",
-      // 20: "url('picture/Vector (9).svg')",
     },
     container: {
       center: true,

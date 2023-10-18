@@ -4,7 +4,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="bg-gray-300">
+    <div className="">
       <div>
         <CardTop />
       </div>

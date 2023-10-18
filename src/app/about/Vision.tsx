@@ -16,44 +16,48 @@ const cards = [
 function Vision() {
   return (
     <div className="">
-      <div className="mb-9 -mt-[190px]">
+      <div className="md:mb-9 mb-6 -translate-y-[65%]">
         <img className="w-full" src="/picture/Vector (4).svg" alt="" />
       </div>
-      <div className="container px-10">
-        <div className="text-8xl font-bold text-slate-900 mb-32">
+      <div className="container md:px-10">
+        <div className="md:text-8xl text-5xl font-bold text-slate-900 -mt-[23%] md:mb-32 mb-8">
           Ri-Thai has been a leader in synthetic fibers for over 45 years. The
           company's commitment to sustainability is evidenced by its new RTS
           (Retain to Sustain) textiles initiative.
         </div>
-        <div className="flex gap-5 justify-between">
+        <div className="-mx-4 md:hidden">
+          <img className="w-full" src="/picture/Vector (5).png" alt="" />
+        </div>
+        <div className="flex md:flex-row flex-col md:gap-5 gap-10 justify-between -mt-2 md:-mt-0">
           {cards.map((item, index) => (
             <div key={index}>
-              <div className="text-12xl font-bold text-slate-900 mb-2">
+              <div className="md:text-12xl text-7xl font-bold text-slate-900 md:mb-2 mb-5">
                 {item.name}
               </div>
-              <div className="text-lg max-w-[462px] text-[rgba(11,_11,_43,_0.80)]">
+              <div className="md:text-lg text-md md:max-w-[462px] text-[rgba(11,_11,_43,_0.80)]">
                 {item.title}
               </div>
             </div>
           ))}
         </div>
       </div>
+      <hr className="border border-slate-200 md:hidden mt-11" />
       <div
-        className="bg-no-repeat bg-cover mb-14 -mt-16"
+        className="bg-no-repeat bg-cover md:mb-14 md:-translate-y-[10%] -translate-y-[25%]"
         style={{backgroundImage: `url('/picture/Vector.png')`}}
       >
-        <div className="text-18xl font-bold text-center pt-[313px] pb-[199px]">
-          Vision & Mission
+        <div className="md:text-18xl text-13xl font-bold text-center pt-[280px] md:pb-[199px] pb-24">
+          Vision & <br className="md:hidden" /> Mission
         </div>
       </div>
       <div className="container">
-        <div className="max-w-[899px] m-auto mb-[160px]">
-          <div className="text-8xl font-bold text-slate-900 mb-14">
+        <div className="max-w-[899px] m-auto md:mb-[160px] mb-[100px] -mt-14 md:-mt-0">
+          <div className="md:text-8xl text-5xl font-bold text-slate-900 mb-14">
             “Sustainable development is development that meets the needs of the
             present without compromising the ability of future generations to
             meet their own needs.” - Our Common Future 1987 WCED
           </div>
-          <div className="text-lg text-slate-900">
+          <div className="md:text-lg text-md text-slate-900">
             RTS’s vision is to promote the use of sustainable-minded
             monofilament yarn, ultimately enabling consumers to make informed
             choices about their purchases. <br />
@@ -79,29 +83,38 @@ function Vision() {
           </div>
         </div>
       </div>
-      <div className="bg-slate-900">
-        <div className="container">
-          <div className="flex gap-10 justify-between items-center py-28">
-            <div className="max-w-[575px]">
-              <div className="flex">
-                <div className="text-21xl font-medium text-emerald-600 -mt-5">
-                  “
+      <div className="">
+        <div className="lg:hidden">
+          <img
+            className="w-full"
+            src="/picture/istockphoto-1277859289-2048x2048 1.png"
+            alt=""
+          />
+        </div>
+        <div className="bg-slate-900">
+          <div className="container">
+            <div className="flex gap-10 justify-between items-center md:py-28 pt-20 pb-[76px]">
+              <div className="lg:max-w-[575px]">
+                <div className="md:flex">
+                  <div className="text-21xl font-medium text-emerald-600 md:-mt-5">
+                    “
+                  </div>
+                  <div className="md:text-8xl text-5xl font-medium text-white md:mb-7 mb-9">
+                    At Ri-Thai, we strive to foster and share with our customers
+                    the sustainable value of our products. In 2012 we launched
+                    the MonoGreenⓇ line of eco-friendly monofilament yarns. We
+                    are now proud to introduce RTSTM, an innovative solution
+                    that exemplifies our dedication to circularity and
+                    sustainability in the textile industry.
+                  </div>
                 </div>
-                <div className="text-8xl font-medium text-white mb-7">
-                  At Ri-Thai, we strive to foster and share with our customers
-                  the sustainable value of our products. In 2012 we launched the
-                  MonoGreenⓇ line of eco-friendly monofilament yarns. We are now
-                  proud to introduce RTSTM, an innovative solution that
-                  exemplifies our dedication to circularity and sustainability
-                  in the textile industry.
+                <div className="text-4xl font-bold text-white text-right">
+                  - RTS Team
                 </div>
               </div>
-              <div className="text-4xl font-bold text-white text-right">
-                - RTS Team
+              <div className="hidden lg:block">
+                <img src="/picture/image 4.png" alt="" />
               </div>
-            </div>
-            <div>
-              <img src="/picture/image 4.png" alt="" />
             </div>
           </div>
         </div>
