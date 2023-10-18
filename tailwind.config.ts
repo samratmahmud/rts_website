@@ -58,6 +58,7 @@ const config: Config = {
     backgroundImage: {
       homePage: "url('/picture/Mask group.png')",
       homePageMV: "url('/picture/Group 185.png')",
+      card1: "url('/picture/Group 187.png')",
       // 10: "url('picture/Vector (8).svg')",
       // 20: "url('picture/Vector (9).svg')",
     },

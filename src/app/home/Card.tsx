@@ -4,23 +4,26 @@ import React from "react";
 
 function Card() {
   return (
-    <div>
+    <div className="bg-gray-300">
       <div>
         <CardTop />
       </div>
-      <div className="container mb-14">
-        <div aria-label="Cards 1" className="flex items-center mb-11">
-          <div className="bg-emerald-600 pl-20 pr-12 py-20 lg:max-w-[552px] -mt-20 z-0 ml-4">
-            <div className="text-19xl font-bold text-white text-right mb-3">
+      <div className="mb-14 relative z-10">
+        <div
+          aria-label="Cards 1"
+          className="lg:flex items-center mb-11 bg-card1 lg:[background-image:none] bg-no-repeat bg-cover px-4 lg:px-0"
+        >
+          <div className="bg-emerald-600 md:pl-20 md:pr-12 px-5 md:py-20 pt-7 pb-14 lg:max-w-[602px] md:-mt-20 z-0 lg:ml-14 -translate-y-[20%] md:translate-y-0">
+            <div className="md:text-19xl text-16xl font-bold text-white text-right md:mb-3 mb-1">
               1.
             </div>
-            <div className="text-lg font-medium text-white mb-10 max-w-[270px]">
-              RTS Solutions to #Lightweighting
+            <div className="md:text-lg text-md font-medium text-white md:mb-10 mb-7">
+              RTS Solutions to <br /> #Lightweighting
             </div>
-            <div className="text-15xl font-medium text-white mb-5">
+            <div className="md:text-15xl text-9xl font-medium md:text-white text-slate-900 mb-6">
               Low Carbon Footprint Monofilament
             </div>
-            <div className="text-lg text-white mb-14">
+            <div className="md:text-lg text-md text-white md:mb-[60px] mb-10">
               Hollow monofilament's lightweight nature reduces energy
               consumption, leading to a decrease in carbon emissions.
             </div>
@@ -31,13 +34,20 @@ function Card() {
               <Button name="Find out More" />
             </div>
           </div>
-          <div className="w-full -mr-4">
-            <img src="/picture/AdobeStock_490732559_Preview.png" alt="" />
+          <div className="hidden lg:block">
+            <img
+              className="w-full"
+              src="/picture/AdobeStock_490732559_Preview.png"
+              alt=""
+            />
+          </div>
+          <div className="-mx-4 lg:hidden">
+            <img className="w-full" src="/picture/Vector (10).svg" alt="" />
           </div>
         </div>
-        <div aria-label="Card 2" className="relative">
-          <div className="lg:flex gap-14 items-center mb-24">
-            <div className=" max-w-[482px] py-10 px-5 ml-6 col-span-5">
+        <div aria-label="Card 2" className="lg:relative">
+          <div className="lg:flex gap-20 items-center mb-24">
+            <div className="max-w-[482px] py-10 px-5 ml-24 col-span-5">
               <div className="text-19xl font-bold text-emerald-600 mb-5">
                 2.
               </div>
@@ -48,7 +58,7 @@ function Card() {
               <div className="text-15xl font-medium text-slate-900 mb-5">
                 Monofilament With Greater Inclusivity{" "}
               </div>
-              <div className="text-lg text-slate-900 mb-8">
+              <div className="text-lg text-slate-900 mb-8 max-w-[402px]">
                 Adopting a new method for mechanical recycling to overcome the
                 challenges posed by synthetic textiles.
               </div>
@@ -59,15 +69,14 @@ function Card() {
                 <Button name="Find out More" />
               </div>
             </div>
-            <div className="mr-14 col-span-6">
+            <div className="col-span-6">
               <img src="/picture/RTS_RetainToSustain45 1.png" alt="" />
             </div>
           </div>
-          <div className="absolute -bottom-14 -mx-4">
-            <img className="w-full" src="/picture/Vector.svg" alt="" />
+          <div className="absolute -bottom-14">
+            <img className="w-screen" src="/picture/Vector.svg" alt="" />
           </div>
         </div>
-
         <div aria-label="Cards 3" className="lg:flex items-center mb-3">
           <div className="max-w-[604px] -ml-4">
             <img
@@ -121,7 +130,7 @@ function Card() {
               <img src="/picture/RTS_RetainToSustain12 1.png" alt="" />
             </div>
           </div>
-          <div className="absolute -top-24 -z-10 -mx-4">
+          <div className="absolute -top-24 -z-10">
             <img src="/picture/Vector (1).svg" alt="" />
           </div>
         </div>
