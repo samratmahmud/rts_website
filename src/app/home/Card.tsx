@@ -122,8 +122,8 @@ function Card() {
           aria-label="Card 4"
           className="lg:relative bg-card4 bg-no-repeat bg-cover lg:[background-image:none] pb-16"
         >
-          <div className="lg:flex gap-5 items-center lg:mt-24">
-            <div className="lg:max-w-[482px] md:py-10 pb-[72px] pt-7 px-5 lg:ml-6 mx-4 lg:mx-0 bg-white -translate-y-[13%] lg:-translate-y-0">
+          <div className="lg:flex gap-10 justify-between items-center lg:mt-24">
+            <div className="lg:max-w-[482px] md:py-10 pb-[72px] pt-7 px-5 lg:ml-6 mx-4 lg:mx-0 bg-white -z-10 -translate-y-[13%] lg:-translate-y-0">
               <div className="md:text-19xl text-16xl font-bold lg:text-emerald-600 text-slate-900 md:mb-7 mb-2 text-right lg:text-left">
                 4.
               </div>
@@ -144,12 +144,12 @@ function Card() {
                 <Button name="Find out More" />
               </div>
             </div>
-            <div className="mr-14 hidden lg:block">
+            <div className="hidden lg:block lg:mr-[137px]">
               <img src="/picture/RTS_RetainToSustain12 1.png" alt="" />
             </div>
           </div>
-          <div className="absolute -top-24 -z-10 hidden lg:block">
-            <img src="/picture/Vector (1).svg" alt="" />
+          <div className="absolute -top-24 -z-10 hidden lg:block w-full">
+            <img className="w-full" src="/picture/Vector (1).svg" alt="" />
           </div>
         </div>
       </div>

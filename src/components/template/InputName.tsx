@@ -11,7 +11,7 @@ function InputName(props: inputBox) {
         {props.name}
       </div>
       <input
-        className="w-full focus:outline-none bg-[rgba(11,_11,_43,_0.05)] px-4 h-10"
+        className="w-full focus:outline-none bg-[rgba(11,_11,_43,_0.05)] px-4 lg:h-10 h-8"
         type="text"
         placeholder="Fill up this file"
       />

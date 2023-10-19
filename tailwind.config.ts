@@ -62,6 +62,7 @@ const config: Config = {
       card2: "url('/picture/Mask group (27).png')",
       card3: "url('/picture/Group 189.png')",
       card4: "url('/picture/RTS_RetainToSustain12 1.png')",
+      inputbg: "url('/picture/AdobeStock_354009182_Preview.png')",
     },
     container: {
       center: true,

@@ -41,7 +41,7 @@ function Vision() {
           ))}
         </div>
       </div>
-      <hr className="border border-slate-200 md:hidden mt-11" />
+      <hr className="w-full h-[1px] bg-slate-200 md:hidden mt-11" />
       <div
         className="bg-no-repeat bg-cover md:mb-14 md:-translate-y-[10%] -translate-y-[25%]"
         style={{backgroundImage: `url('/picture/Vector.png')`}}
