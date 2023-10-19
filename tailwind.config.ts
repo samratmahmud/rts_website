@@ -10,9 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        black: {"0": "#000000"},
         slate: {"200": "#D9D9D9", "900": "#0B0B2B"},
-        gray: {"50": "#ffffff"},
         emerald: {"600": "#00E100"},
         pink: {"200": "#FAC3D4"},
       },
