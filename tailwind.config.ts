@@ -63,6 +63,9 @@ const config: Config = {
       card3: "url('/picture/Group 189.png')",
       card4: "url('/picture/RTS_RetainToSustain12 1.png')",
       inputbg: "url('/picture/AdobeStock_354009182_Preview.png')",
+      solutions1:
+        "url('/picture/stock-photo-happy-woman-zip-up-blue-sportive-jacket-before-rain-relaxin(1).png')",
+      solutions1M: "url('/picture/Mask group (28).png')",
     },
     container: {
       center: true,

@@ -4,7 +4,7 @@ import AboutHeader from "./AboutHeader";
 import Vision from "./Vision";
 import InputFile from "@/components/common/InputFile";
 import Ri_Thai from "./Ri_Thai";
-import Footer from "../home/Footer";
+import Footer from "../../components/global/Footer";
 
 function page() {
   return (

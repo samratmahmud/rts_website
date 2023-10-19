@@ -5,7 +5,7 @@ import CardFive from "./CardFive";
 import Parsenteg from "./Parsenteg";
 import TestingCard from "./TestingCard";
 import GreenBg from "./GreenBg";
-import Footer from "../home/Footer";
+import Footer from "../../components/global/Footer";
 
 function page() {
   return (

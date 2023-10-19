@@ -3,16 +3,16 @@ import SolutionHeader from "./SolutionHeader";
 import Navbar from "@/components/global/Navbar";
 import SolutionCard from "./SolutionCard";
 import InputFile from "@/components/common/InputFile";
-import Footer from "../home/Footer";
+import Footer from "../../components/global/Footer";
 
 function page() {
   return (
     <div>
-      <Navbar />
-      <SolutionHeader />
+      {/* <Navbar /> */}
+      {/* <SolutionHeader /> */}
       <SolutionCard />
-      <InputFile />
-      <Footer />
+      {/* <InputFile /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

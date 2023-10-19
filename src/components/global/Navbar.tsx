@@ -35,7 +35,7 @@ function Navbar() {
 
   return (
     <div className="container ">
-      <div className="relative">
+      <div className="relative z-[1020]">
         <div className="flex justify-between absolute lg:z-[1020] top-0 items-center gap-5 left-0 right-0 lg:px-6">
           <Link href={"/"} className="lg:mt-11 mt-6 lg:mb-16 mb-8">
             <img className="h-[26px]" src="/picture/Group.svg" alt="" />
@@ -53,12 +53,12 @@ function Navbar() {
               ))}
             </div>
           </div>
-          <div onClick={toggle} className="lg:hidden w-8 h-4">
+          <div onClick={toggle} className="lg:hidden w-8 h-4 cursor-pointer">
             <img className="w-full" src="/picture/Group 254 (1).svg" alt="" />
           </div>
         </div>
       </div>
-      <div className="lg:hidden">
+      <div className="lg:hidden relative z-[1080]">
         <Drawer
           style={{width: "290px"}}
           open={open}

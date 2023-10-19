@@ -12,11 +12,11 @@ function AboutHeader() {
             About
           </div>
           <br />
-          <div className="md:text-17xl text-9xl font-medium text-slate-900 bg-emerald-600 inline-block py-2 px-4 -mt-[1px] lg:-mt-0">
-            Retain to <span className="hidden lg:block"></span>
+          <div className="md:text-17xl text-9xl font-medium text-slate-900 bg-emerald-600 inline-block py-2 px-4 -mt-[1px] lg:-mt-0 mb-0 md:mb-6">
+            Retain to <span className="hidden md:inline-block">Sustain</span>
           </div>
           <br />
-          <div className="md:text-17xl text-9xl font-medium text-slate-900 bg-emerald-600 inline-block py-2 px-4 mb-6 -mt-[1px] lg:-mt-0">
+          <div className="md:text-17xl text-9xl font-medium text-slate-900 bg-emerald-600 inline-block py-2 px-4 mb-6 -mt-[1px] lg:-mt-0 md:hidden">
             Sustain
           </div>
           <div className="md:text-5xl text-2xl font-medium text-white md:pb-[293px] pb-52 drop-shadow-lg max-w-[643px]">

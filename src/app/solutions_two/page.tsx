@@ -2,7 +2,7 @@ import Navbar from "@/components/global/Navbar";
 import React from "react";
 import Card_two from "./Card_two";
 import AirplanSection from "./AirplanSection";
-import Footer from "../home/Footer";
+import Footer from "../../components/global/Footer";
 import Header_two from "./Header_two";
 
 function page() {

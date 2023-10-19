@@ -4,7 +4,7 @@ import HeaderFour from "./HeaderFour";
 import CardsFour from "./CardsFour";
 import PlasticMono from "./PlasticMono";
 import Application from "./Application";
-import Footer from "../home/Footer";
+import Footer from "../../components/global/Footer";
 
 function page() {
   return (
