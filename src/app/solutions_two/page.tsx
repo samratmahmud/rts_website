@@ -9,7 +9,7 @@ function page() {
   return (
     <div>
       <Navbar />
-      <Header_two />
+      {/* <Header_two /> */}
       <Card_two />
       <AirplanSection />
       <Footer />

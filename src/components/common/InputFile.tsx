@@ -28,7 +28,7 @@ function InputFile() {
                 className="w-full h-[200px] focus:outline-none p-2 bg-[rgba(11,_11,_43,_0.05)] md:mb-7 m-1.5"
                 name="text"
                 id=""
-                placeholder=""
+                placeholder="Enter Your Messege....."
               ></textarea>
               <div className="flex items-center md:gap-4 gap-2 mb-4">
                 <input className="w-4 h-4" type="checkbox" />

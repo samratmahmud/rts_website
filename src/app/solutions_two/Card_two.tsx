@@ -1,3 +1,4 @@
+import HeaderSection from "@/components/common/HeaderSection";
 import React from "react";
 
 const cardProps = [
@@ -27,6 +28,20 @@ const cardProps = [
 function Card_two() {
   return (
     <div className="">
+      <div
+        className="bg-no-repeat bg-cover"
+        style={{
+          backgroundImage: `url('/picture/AdobeStock_74657163_Preview 1.png')`,
+        }}
+      >
+        <HeaderSection
+          p1="RTS Solutions to"
+          p2="# Lightweighting"
+          div1="Monofilament with a"
+          div2="smaller carbon footprint"
+          title="Hollow monofilament's lightweight nature reduces energy consumption, leading to a decrease in carbon emissions."
+        />
+      </div>
       <div className="-mt-40 mb-12">
         <img className="w-full" src="/picture/Vector (4).svg" alt="" />
       </div>

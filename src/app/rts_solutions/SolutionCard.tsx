@@ -36,7 +36,7 @@ function SolutionCard() {
         alt=""
       />
       <img
-        className="w-full absolute -translate-y-1/2 top-1/2  -z-10"
+        className="w-full h-1/5 lg:h-2/4 absolute -translate-y-[65%] top-1/2  -z-10"
         src="/picture/Vector (1).png"
         alt=""
       />
@@ -48,13 +48,23 @@ function SolutionCard() {
               <div key={index} className="bg-slate-900 w-full">
                 <div className="relative">
                   <img className="w-full" src={item.pic} alt="" />
-                  <div className="text-8xl font-bold text-emerald-600 max-w-[457px] text-center m-auto absolute top-1/2 left-0 right-0 bottom-0 justify-center">
+                  <div
+                    className="w-full lg:h-6 h-3 bottom-0 absolute  text-white"
+                    style={{
+                      backgroundImage: `linear-gradient(#5d5b5b,#151515)`,
+                    }}
+                  ></div>
+                  <div className="md:text-8xl text-4xl font-bold text-emerald-600 max-w-[457px] text-center m-auto absolute top-1/2 -translate-y-1/3 lg:-translate-y-0 left-5 right-5 bottom-0 justify-center">
                     {item.name}
                   </div>
                 </div>
-                <div className="py-4">
-                  <p className="text-lg text-white text-center">{item.p1}</p>
-                  <p className="text-lg text-white text-center">{item.p2}</p>
+                <div className="md:pt-3 pt-2 md:pb-5 pb-3">
+                  <p className="md:text-lg text-md text-white text-center">
+                    {item.p1}
+                  </p>
+                  <p className="md:text-lg text-md text-white text-center">
+                    {item.p2}
+                  </p>
                 </div>
               </div>
             ))}
