@@ -5,13 +5,14 @@ import AirplanSection from "./AirplanSection";
 import Footer from "../../components/global/Footer";
 import Header_two from "./Header_two";
 import HeroBgImage from "@/components/common/HeroBgImage";
+import Committed from "./Committed";
 
 function page() {
   return (
     <div>
       <Navbar />
-      {/* <Header_two /> */}
       <Card_two />
+      <Committed />
       <AirplanSection />
       <Footer />
     </div>

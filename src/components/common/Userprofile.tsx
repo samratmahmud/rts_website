@@ -10,13 +10,15 @@ interface UserProps {
 function UserProfile(props: UserProps) {
   const {pic, name, title, p1} = props;
   return (
-    <div className="flex flex-row gap-10 items-center">
+    <div className="flex lg:flex-row flex-col lg:gap-10 gap-6 items-center">
       <div>
-        <img src={pic} alt="" />
+        <img className="w-full" src={pic} alt="" />
       </div>
       <div>
-        <div className="text-12xl font-bold text-slate-900 mb-6">{name}</div>
-        <div className="text-lg text-slate-900 max-w-[604px]">
+        <div className="md:text-12xl text-7xl font-bold text-slate-900 md:mb-6 mb-3">
+          {name}
+        </div>
+        <div className="md:text-lg text-md text-slate-900 max-w-[604px]">
           {title} <p className="pt-4">{p1}</p>
         </div>
       </div>

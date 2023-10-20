@@ -3,13 +3,21 @@ import React from "react";
 export interface ArticleCardProps {
   thumbnail: string;
   index?: number;
-  title: string;
+  title?: string;
   content: string;
   theme?: "dark" | "light";
+  size?: "16" | "24";
 }
 
 function ArticleCard(props: ArticleCardProps) {
-  const {thumbnail, index, title, content, theme = "light"} = props;
+  const {
+    thumbnail,
+    index,
+    title,
+    content,
+    theme = "light",
+    size = "16",
+  } = props;
   return (
     <div className="w-full">
       <div className="bg-emerald-600 pb-2.5">
@@ -22,7 +30,11 @@ function ArticleCard(props: ArticleCardProps) {
             : "bg-slate-900 text-white"
         }`}
       >
-        <div className="text-md font-medium text-emerald-600 md:mb-3.5 mb-[18px]">
+        <div
+          className={`font-medium text-emerald-600 md:mb-3.5 mb-[18px] ${
+            size === "16" ? "text-md" : "text-4xl"
+          }`}
+        >
           # {index}
         </div>
         <div className="text-4xl font-bold md:mb-2.5 mb-3.5">{title}</div>

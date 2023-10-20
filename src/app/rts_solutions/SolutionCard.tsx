@@ -29,7 +29,7 @@ const cards = [
 
 function SolutionCard() {
   return (
-    <section className="lg:bg-[rgba(11,_11,_43,_0.05)] pb-24 pt-16 relative z-0 ">
+    <section className="lg:bg-[rgba(11,_11,_43,_0.05)] pb-24 pt-16 relative z-0">
       <img
         className="absolute -z-20 -top-10 lg:-top-[14%] w-full"
         src="/picture/Vector (4).svg"
