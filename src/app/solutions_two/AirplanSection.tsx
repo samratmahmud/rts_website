@@ -1,17 +1,29 @@
 import Cards from "@/components/common/Cards";
-import FlexComponents from "@/components/common/FlexComponents";
+import FlexComponents from "@/components/common/Userprofile";
+import HeroBgImage from "@/components/common/HeroBgImage";
 import React from "react";
+import UserProfile from "@/components/common/Userprofile";
 
 function AirplanSection() {
   return (
     <div>
+      <div
+        className="md:mb-48 mb-14 bg-no-repeat bg-cover"
+        style={{backgroundImage: `url('/picture/Mask group (3).png')`}}
+      >
+        <HeroBgImage
+          title="RTS is committed to developing hollow monofilament, expanding its uses
+          and achieving energy-saving, carbon reduction, and other ecological
+          goals."
+        />
+      </div>
       <div className="relative mb-16">
         <div>
           <img src="/picture/Vector (1).svg" alt="" />
         </div>
         <div className="container">
           <div className="absolute -top-8">
-            <FlexComponents
+            <UserProfile
               pic="/picture/AdobeStock_91101792_Preview 1.png"
               name="Our goals"
               title="We aim to reduce the diameter and increase the hollow rate of

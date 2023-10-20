@@ -1,13 +1,13 @@
 import React from "react";
 
-interface flexProps {
+interface UserProps {
   pic: string;
   name?: string;
   title: string;
   p1?: string;
 }
 
-function FlexComponents(props: flexProps) {
+function UserProfile(props: UserProps) {
   const {pic, name, title, p1} = props;
   return (
     <div className="flex flex-row gap-10 items-center">
@@ -24,4 +24,4 @@ function FlexComponents(props: flexProps) {
   );
 }
 
-export default FlexComponents;
+export default UserProfile;

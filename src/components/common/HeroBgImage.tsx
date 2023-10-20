@@ -1,16 +1,16 @@
 import React from "react";
 
-function HeroBgImage() {
+interface HeroText {
+  title: string;
+}
+
+function HeroBgImage(props: HeroText) {
+  const {title} = props;
   return (
-    <div
-      className="mb-48"
-      style={{backgroundImage: `url('/picture/Mask group (3).png')`}}
-    >
+    <div>
       <div className="container">
-        <div className="text-10xl text-white max-w-[670px] py-[138px]">
-          RTS is committed to developing hollow monofilament, expanding its uses
-          and achieving energy-saving, carbon reduction, and other ecological
-          goals.
+        <div className="md:text-10xl text-5xl text-white max-w-[670px] md:py-[138px] py-16">
+          {title}
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
-import FlexComponents from "@/components/common/FlexComponents";
+import UserProfile from "@/components/common/Userprofile";
+import FlexComponents from "@/components/common/Userprofile";
 import React from "react";
 
 const pictureGroup = [
@@ -29,7 +30,7 @@ function Application() {
         </div>
         <div className="container">
           <div className="absolute -top-52">
-            <FlexComponents
+            <UserProfile
               pic="/picture/AdobeStock_312925667_Preview 1.png"
               name="Our goals"
               title="Recovery and elasticity of elastic monofilaments trail those commonly used elastic fibers in the industry, such as Spandex. To address these deficiencies, RTS is developing elastic monofilaments that will be more elastic with higher recovery than existing products, while maintaining strength, processability, dyeability, and recyclability."

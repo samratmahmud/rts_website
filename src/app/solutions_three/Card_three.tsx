@@ -1,4 +1,5 @@
-import FlexComponents from "@/components/common/FlexComponents";
+import UserProfile from "@/components/common/Userprofile";
+import FlexComponents from "@/components/common/Userprofile";
 import React from "react";
 
 function Card_three() {
@@ -69,7 +70,7 @@ function Card_three() {
         </div>
       </div>
       <div className="container mb-16">
-        <FlexComponents
+        <UserProfile
           pic="/picture/Group 252.png"
           name="Our goals"
           title="Our monofilaments that are made from recycled textile waste do not require bleaching. At the same time, we provide a wide range of color choices, ensuring that our recycled monofilaments hold the same value as virgin monofilaments.

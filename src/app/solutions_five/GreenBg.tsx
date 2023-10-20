@@ -1,4 +1,4 @@
-import FlexComponents from "@/components/common/FlexComponents";
+import FlexComponents from "@/components/common/Userprofile";
 import React from "react";
 
 function GreenBg() {

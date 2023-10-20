@@ -4,6 +4,7 @@ import Card_two from "./Card_two";
 import AirplanSection from "./AirplanSection";
 import Footer from "../../components/global/Footer";
 import Header_two from "./Header_two";
+import HeroBgImage from "@/components/common/HeroBgImage";
 
 function page() {
   return (
