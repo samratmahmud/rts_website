@@ -1,4 +1,5 @@
 import HeaderSection from "@/components/common/HeaderSection";
+import HeroBgImage from "@/components/common/HeroBgImage";
 import React from "react";
 
 const cardProps = [
@@ -37,12 +38,11 @@ function Card_two() {
         <HeaderSection
           p1="RTS Solutions to"
           p2="# Lightweighting"
-          div1="Monofilament with a"
-          div2="smaller carbon footprint"
+          div1="Monofilament with a smaller carbon footprint"
           title="Hollow monofilament's lightweight nature reduces energy consumption, leading to a decrease in carbon emissions."
         />
       </div>
-      <div className="-mt-40 mb-12">
+      <div className="-mt-[15%] mb-12">
         <img className="w-full" src="/picture/Vector (4).svg" alt="" />
       </div>
       <div className="container">
@@ -82,17 +82,8 @@ function Card_two() {
           ))}
         </div>
       </div>
-      <div
-        className="mb-48"
-        style={{backgroundImage: `url('/picture/Mask group (3).png')`}}
-      >
-        <div className="container">
-          <div className="text-10xl text-white max-w-[670px] py-[138px]">
-            RTS is committed to developing hollow monofilament, expanding its
-            uses and achieving energy-saving, carbon reduction, and other
-            ecological goals.
-          </div>
-        </div>
+      <div>
+        <HeroBgImage />
       </div>
     </div>
   );
