@@ -6,10 +6,11 @@ interface headerProps {
   p2: string;
   div1: string;
   title: string;
+  width?: "true" | "false";
 }
 
 function HeaderSection(props: headerProps) {
-  const {p1, p2, div1, title} = props;
+  const {p1, p2, div1, title, width = "false"} = props;
 
   return (
     <div className="relative">
@@ -25,10 +26,16 @@ function HeaderSection(props: headerProps) {
             <p className="md:text-lg text-md font-medium text-white">{p1}</p>
             <p className="md:text-lg text-md font-medium text-white">{p2}</p>
           </div>
-          <div className="md:text-17xl text-9xl font-medium text-slate-900 bg-emerald-600 inline py-2 px-4 mb-7">
-            {div1}
+          <div className="md:max-w-[758px] max-w-[280px]">
+            <div className="md:text-64px text-34px font-medium text-slate-900 bg-emerald-600 inline py-1 px-2.5">
+              {div1}
+            </div>
           </div>
-          <div className="md:text-5xl text-2xl font-medium text-white drop-shadow-lg max-w-[739px]">
+          <div
+            className={`md:text-5xl text-2xl font-medium text-white drop-shadow-lg mt-10 ${
+              width === "false" ? "max-w-[720px]" : "max-w-[452px]"
+            }`}
+          >
             {title}
           </div>
         </div>

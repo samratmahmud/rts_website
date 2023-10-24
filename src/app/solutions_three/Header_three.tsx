@@ -14,8 +14,8 @@ function Header_three() {
           p1="RTS Solutions to"
           p2="# Addressing the current challenges in textile recycling"
           div1="Monofilament With Greater Inclusivity"
-          title="Overcoming the challenges of synthetic textiles closed-loop
-        recycling by using innovative, low environmental impact methods."
+          title="Overcoming the challenges of synthetic textiles closed-loop recycling by using innovative, low environmental impact methods."
+          width="true"
         />
       </div>
       <div className="bg-[rgba(11,_11,_43,_0.05)]">

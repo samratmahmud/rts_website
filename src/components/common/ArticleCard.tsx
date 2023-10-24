@@ -24,7 +24,7 @@ function ArticleCard(props: ArticleCardProps) {
         <img className="w-full" src={thumbnail} alt="" />
       </div>
       <div
-        className={`md:p-10 py-7 px-5 ${
+        className={`md:p-10 pt-7 pb-11 px-5 ${
           theme === "light"
             ? "bg-[rgba(11,_11,_43,_0.05)] text-slate-900"
             : "bg-slate-900 text-white"

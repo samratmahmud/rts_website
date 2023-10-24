@@ -70,7 +70,7 @@ function PlasticMono() {
           <div className="text-12xl font-bold text-slate-900 mb-11">
             Thermoplastic Elastomer Mono.
           </div>
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid lg:grid-cols-3 gap-5">
             {monoCard.map((item, index) => (
               <div key={index}>
                 <div className="bg-emerald-600 pb-2.5 rounded-t-3xl">
@@ -101,7 +101,7 @@ function PlasticMono() {
           Fusible Mono.
         </div>
         <div className="relative">
-          <div className="-mx-28">
+          <div className="-mx-[9%]">
             <img className="w-full" src="/picture/Vector (4).svg" alt="" />
           </div>
           <div className="max-w-[402px] absolute top-8">
@@ -113,7 +113,7 @@ function PlasticMono() {
                 Bi-component Mono.
               </div>
               <div className="flex gap-2">
-                <div className="text-[30px] font-medium -mt-5">.</div>
+                <div className="text-[30px] font-medium">.</div>
                 <div className="text-md font-medium">
                   Textiles can be bonded at 110°C - 180°C, in place of adhesives
                   for hetero-material.

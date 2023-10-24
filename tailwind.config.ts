@@ -42,6 +42,8 @@ const config: Config = {
       "19xl": ["80px", {lineHeight: "0.7em"}],
       "20xl": ["140px", {}],
       "21xl": ["160px", {lineHeight: "0.4em"}],
+      "64px": ["64px", {lineHeight: "1.45em"}],
+      "34px": ["34px", {lineHeight: "1.45em"}],
     },
     shadows: {
       sm: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -64,6 +66,8 @@ const config: Config = {
       solutions1:
         "url('/picture/stock-photo-happy-woman-zip-up-blue-sportive-jacket-before-rain-relaxin(1).png')",
       solutions1M: "url('/picture/Mask group (28).png')",
+      solutions2: "url('/picture/Mask group (7).png')",
+      solutions2Mob: "url('/picture/Group 224.png')",
     },
     container: {
       center: true,

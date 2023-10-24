@@ -9,7 +9,7 @@ function HeroBgImage(props: HeroText) {
   return (
     <div>
       <div className="container">
-        <div className="md:text-10xl text-5xl text-white max-w-[670px] md:py-[138px] py-16">
+        <div className="md:text-10xl text-5xl text-white max-w-[700px] md:py-[138px] py-16">
           {title}
         </div>
       </div>
