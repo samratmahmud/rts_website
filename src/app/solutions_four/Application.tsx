@@ -23,36 +23,23 @@ const pictureGroup = [
 
 function Application() {
   return (
-    <div>
-      <div className="relative">
-        <div className="mt-80">
-          <img src="/picture/Vector (6).svg" alt="" />
+    <div className="mt-[15%]">
+      <div className="container">
+        <div className="md:text-12xl text-7xl font-bold text-slate-900 md:mb-8 mb-6">
+          Applications
         </div>
-        <div className="container">
-          <div className="absolute -top-52">
-            <UserProfile
-              pic="/picture/AdobeStock_312925667_Preview 1.png"
-              name="Our goals"
-              title="Recovery and elasticity of elastic monofilaments trail those commonly used elastic fibers in the industry, such as Spandex. To address these deficiencies, RTS is developing elastic monofilaments that will be more elastic with higher recovery than existing products, while maintaining strength, processability, dyeability, and recyclability."
-              p1=" From a design perspective, opting for a mono-material increases textile recyclability—making this material an ideal choice for multiple applications."
-            />
-          </div>
-          <div className="text-12xl font-bold text-slate-900 mb-8 -mt-4">
-            Applications
-          </div>
-        </div>
-        <div className="flex flex-wrap">
-          {pictureGroup.map((item, index) => (
-            <div key={index} className="">
-              <div className="relative">
-                <img className="w-full" src={item.pic} alt="" />
-                <div className=" absolute top-[45%] text-8xl font-[350px] text-white text-center left-0 right-0">
-                  {item.name}
-                </div>
+      </div>
+      <div className="flex flex-wrap">
+        {pictureGroup.map((item, index) => (
+          <div key={index} className="">
+            <div className="relative">
+              <img className="w-full" src={item.pic} alt="" />
+              <div className="absolute top-[50%] md:text-8xl text-lg font-[350px] text-white lg:text-center left-0 right-0 -translate-y-[50%] ml-4 lg:ml-0">
+                {item.name}
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   );

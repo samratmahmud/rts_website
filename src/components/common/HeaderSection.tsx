@@ -26,7 +26,7 @@ function HeaderSection(props: headerProps) {
             <p className="md:text-lg text-md font-medium text-white">{p1}</p>
             <p className="md:text-lg text-md font-medium text-white">{p2}</p>
           </div>
-          <div className="md:max-w-[758px] max-w-[280px]">
+          <div className="md:max-w-[718px] max-w-[280px]">
             <div className="md:text-64px text-34px font-medium text-slate-900 bg-emerald-600 inline py-1 px-2.5">
               {div1}
             </div>

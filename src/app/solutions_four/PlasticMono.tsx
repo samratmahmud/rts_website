@@ -90,11 +90,11 @@ function PlasticMono() {
   return (
     <div className="bg-[rgba(11,_11,_43,_0.05)]">
       <div className="relative">
-        <div className="absolute -z-10 bottom-24 w-full">
+        <div className="absolute -z-10 lg:top-[64%] top-[45%] w-full">
           <img className="w-full" src="/picture/Vector (4).svg" alt="" />
         </div>
         <div className="container">
-          <div className="">
+          <div className="mb-9 md:mb-0">
             {monoCards.map((item, index) => (
               <div key={index}>
                 <div className="md:text-12xl text-7xl font-bold text-slate-900 md:pt-28 pt-9 md:mb-11 mb-6">
@@ -133,14 +133,23 @@ function PlasticMono() {
       </div>
       <div className="relative">
         <div
-          className="-mt-[12%]"
+          className="lg:-mt-[12%]"
           style={{
             backgroundImage: `linear-gradient(rgba(11, 11, 43, 0.001) 50%,white 50%)`,
           }}
         >
-          <img className="w-full" src="/picture/Mask group (13).png" alt="" />
-          <div className="container">
-            <div className="top-0 absolute text-11xl font-medium text-white pt-[30%] max-w-[900px] m-auto left-0 right-0 text-center">
+          <img
+            className="w-full hidden md:block"
+            src="/picture/Mask group (13).png"
+            alt=""
+          />
+          <img
+            className="w-full md:hidden"
+            src="/picture/Mask group (31).png"
+            alt=""
+          />
+          <div className="">
+            <div className="top-0 absolute md:text-11xl text-4xl font-medium text-white pt-[30%] max-w-[900px] m-auto left-0 right-0 text-center px-4">
               Despite the advantages of mono-material design, many challenges
               remain.
             </div>

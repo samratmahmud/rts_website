@@ -5,6 +5,7 @@ import CardsFour from "./CardsFour";
 import PlasticMono from "./PlasticMono";
 import Application from "./Application";
 import Footer from "../../components/global/Footer";
+import Despite from "./Recovary";
 
 function page() {
   return (
@@ -13,6 +14,7 @@ function page() {
       <HeaderFour />
       <CardsFour />
       <PlasticMono />
+      <Despite />
       <Application />
       <Footer />
     </div>
