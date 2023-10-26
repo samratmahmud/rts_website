@@ -21,7 +21,7 @@ function HeaderSection(props: headerProps) {
         }}
       />
       <div className="container">
-        <div className="md:pt-56 pt-[90px] md:pb-[279px] pb-52">
+        <div className="md:pt-56 pt-[90px] md:pb-[200px] pb-52">
           <div className="drop-shadow-[0px_2px_4px_rgba(0,_0,_0,_0.50)] mb-11">
             <p className="md:text-lg text-md font-medium text-white">{p1}</p>
             <p className="md:text-lg text-md font-medium text-white">{p2}</p>

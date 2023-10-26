@@ -16,7 +16,7 @@ function page() {
       <Parsenteg />
       <TestingCard />
       <GreenBg />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

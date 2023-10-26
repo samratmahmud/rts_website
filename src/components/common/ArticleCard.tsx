@@ -5,7 +5,7 @@ export interface ArticleCardProps {
   index?: number;
   title?: string;
   content: string;
-  theme?: "dark" | "light";
+  theme?: "dark" | "light" | "white";
   size?: "16" | "24";
 }
 
@@ -25,8 +25,10 @@ function ArticleCard(props: ArticleCardProps) {
       </div>
       <div
         className={`md:p-10 pt-7 pb-11 px-5 ${
-          theme === "light"
-            ? "bg-[rgba(11,_11,_43,_0.05)] text-slate-900"
+          theme === "light" || theme === "white"
+            ? `${
+                theme === "white" ? "bg-white" : "bg-[rgba(11,_11,_43,_0.05)]"
+              } text-slate-900`
             : "bg-slate-900 text-white"
         }`}
       >
@@ -38,7 +40,11 @@ function ArticleCard(props: ArticleCardProps) {
           # {index}
         </div>
         <div className="text-4xl font-bold md:mb-2.5 mb-3.5">{title}</div>
-        <div className="text-md font-medium">{content}</div>
+        <div
+          className={`font-medium ${size === "16" ? "text-md " : "text-4xl"}`}
+        >
+          {content}
+        </div>
       </div>
     </div>
   );

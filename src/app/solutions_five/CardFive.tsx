@@ -1,25 +1,23 @@
+import ArticleCard, {ArticleCardProps} from "@/components/common/ArticleCard";
 import React from "react";
 
-const cardsFive = [
+const cardsFive: ArticleCardProps[] = [
   {
-    pic: "/picture/Mask group (22).png",
-    number: "# 1",
-    name: "Environmental pollution",
-    title:
+    thumbnail: "/picture/Mask group (22).png",
+    title: "Environmental pollution",
+    content:
       "According to a survey by the International Union for Conservation of Nature (IUCN), 35% of non-biodegradable, marine microplastic pollution comes from synthetic fibers.",
   },
   {
-    pic: "/picture/Mask group (20).png",
-    number: "# 2",
-    name: "Biological food chain pollution",
-    title:
+    thumbnail: "/picture/Mask group (20).png",
+    title: "Biological food chain pollution",
+    content:
       "Recent studies indicate that each person ingests approximately a credit card's worth of plastic every week. Although the medical community has not reached a definitive conclusion on the impact of plastic on human health, potential risks are indicated.",
   },
   {
-    pic: "/picture/Mask group (21).png",
-    number: "# 3",
-    name: "Decrease of textiles quality and lifespan",
-    title:
+    thumbnail: "/picture/Mask group (21).png",
+    title: "Decrease of textiles quality and lifespan",
+    content:
       "Textiles that shed microfibers and are less durable experience a decrease in their lifespan. This leads to resource wastage, as well as environmental burdens.",
   },
 ];
@@ -28,10 +26,10 @@ function CardFive() {
   return (
     <div>
       <div
-        className="bg-no-repeat bg-cover"
+        className="bg-no-repeat bg-cover relative"
         style={{backgroundImage: `url('/picture/Mask group (19).png')`}}
       >
-        <div className="absolute -mt-[15%]">
+        <div className="absolute -mt-[15%] left-0 right-0">
           <img className="w-full" src="/picture/Vector (7).svg" alt="" />
         </div>
         <div className="container">
@@ -51,22 +49,12 @@ function CardFive() {
             </div>
             <div className="flex lg:flex-row flex-col gap-6 rounded-xl">
               {cardsFive.map((item, index) => (
-                <div key={index} className="lg:max-w-[398px] rounded-xl">
-                  <div className="bg-emerald-600 pb-2.5">
-                    <img className="w-full" src={item.pic} alt="" />
-                  </div>
-                  <div className="md:px-10 px-5 md:py-10 pt-7 pb-11 bg-white">
-                    <div className="text-md font-medium text-emerald-600 md:mb-3.5 mb-5">
-                      {item.number}
-                    </div>
-                    <div className="text-4xl font-bold text-slate-900 md:mb-10 mb-5">
-                      {item.name}
-                    </div>
-                    <div className="text-md font-medium text-slate-900">
-                      {item.title}
-                    </div>
-                  </div>
-                </div>
+                <ArticleCard
+                  theme="white"
+                  {...item}
+                  index={index + 1}
+                  key={index}
+                />
               ))}
             </div>
           </div>

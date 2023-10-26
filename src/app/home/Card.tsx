@@ -47,10 +47,10 @@ function Card() {
         </div>
         <div
           aria-label="Card 2"
-          className="lg:relative bg-card2 lg:[background-image:none] bg-no-repeat bg-cover"
+          className="lg:relative bg-card2 lg:[background-image:none] bg-no-repeat bg-cover z-0 relative"
         >
           <div className="lg:flex gap-20 items-center mb-24 -translate-y-[20%] lg:-translate-y-0">
-            <div className="lg:max-w-[482px] bg-white md:py-10 pt-[77px] pb-14 px-5 lg:ml-24 mx-4 lg:mx-0">
+            <div className="lg:max-w-[482px] bg-white md:py-10 pt-[77px] pb-14 px-5 lg:ml-24 mx-4 lg:mx-0 z-20 relative">
               <div className="md:text-19xl text-16xl font-bold md:text-emerald-600 text-slate-900 md:mb-5 mb-2 text-right md:text-left">
                 2.
               </div>
@@ -75,10 +75,11 @@ function Card() {
             <div className="col-span-6 hidden lg:block">
               <img src="/picture/RTS_RetainToSustain45 1.png" alt="" />
             </div>
+            <div className="absolute -bottom-14 hidden lg:block z-10">
+              <img className="w-screen" src="/picture/Vector.svg" alt="" />
+            </div>
           </div>
-          <div className="absolute -bottom-14 hidden lg:block">
-            <img className="w-screen" src="/picture/Vector.svg" alt="" />
-          </div>
+
           <div className="lg:hidden -mt-60 pb-24">
             <img className="w-full" src="/picture/Vector (4).png" alt="" />
           </div>

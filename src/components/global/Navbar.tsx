@@ -19,7 +19,7 @@ const navLink = [
   },
   {
     name: "FAQ",
-    url: "/solutions_five",
+    url: "/solutions_three",
   },
   {
     name: "Contact",

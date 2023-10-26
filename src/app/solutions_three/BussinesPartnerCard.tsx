@@ -1,4 +1,3 @@
-import ArticleCard, {ArticleCardProps} from "@/components/common/ArticleCard";
 import React from "react";
 
 const bussinesCard = [
@@ -28,27 +27,32 @@ const bussinesCard = [
 
 function BussinesPartnerCard() {
   return (
-    <div className="container">
-      <div className="grid lg:grid-cols-2 md:gap-10 gap-5 lg:mb-40 mb-16">
-        {bussinesCard.map((item, index) => (
-          <div key={index}>
-            <div className="bg-emerald-600 pb-2.5">
-              <img
-                className="w-full lg:min-h-[402px]"
-                src={item.thumbnail}
-                alt=""
-              />
-            </div>
-            <div className="bg-slate-900 md:p-10 pt-7 pb-10 px-5">
-              <div className="md:text-4xl text-md font-bold text-emerald-600 md:mb-6 mb-4">
-                {item.number}
+    <div className="relative z-0 bg-[rgba(11,_11,_43,_0.05)] -mt-3.5">
+      <div className="absolute left-0 right-0 lg:bottom-[30%] bottom-[55%] -z-10">
+        <img className="w-full" src="/picture/Vector (7).png" alt="" />
+      </div>
+      <div className="container">
+        <div className="grid lg:grid-cols-2 md:gap-10 gap-5 lg:pb-40 pb-16">
+          {bussinesCard.map((item, index) => (
+            <div key={index}>
+              <div className="bg-emerald-600 pb-2.5">
+                <img
+                  className="w-full lg:min-h-[402px]"
+                  src={item.thumbnail}
+                  alt=""
+                />
               </div>
-              <div className="md:text-4xl text-2xl text-white">
-                {item.content}
+              <div className="bg-slate-900 md:p-10 pt-7 pb-10 px-5">
+                <div className="md:text-4xl text-md font-bold text-emerald-600 md:mb-6 mb-4">
+                  {item.number}
+                </div>
+                <div className="md:text-4xl text-2xl text-white">
+                  {item.content}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
