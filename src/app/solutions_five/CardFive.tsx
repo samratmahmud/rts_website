@@ -27,18 +27,24 @@ const cardsFive = [
 function CardFive() {
   return (
     <div>
-      <div className="relative">
-        <img className="w-full" src="/picture/Mask group (19).png" alt="" />
-        <div className="absolute -top-[18%]">
-          <img className="w-screen" src="/picture/Vector (7).svg" alt="" />
+      <div
+        className="bg-no-repeat bg-cover"
+        style={{backgroundImage: `url('/picture/Mask group (19).png')`}}
+      >
+        <div className="absolute -mt-[15%]">
+          <img className="w-full" src="/picture/Vector (7).svg" alt="" />
         </div>
         <div className="container">
-          <div className="absolute top-[226px] pb-[162px]">
-            <div className="flex gap-8 items-center mb-40">
+          <div className="md:pt-[236px] pt-24 md:pb-[162px] pb-28">
+            <div className="flex lg:flex-row flex-col lg:gap-8 gap-6 items-center md:mb-48 mb-16">
               <div>
-                <img src="/picture/Group 73 (1).png" alt="" />
+                <img
+                  className="w-full"
+                  src="/picture/Group 73 (1).png"
+                  alt=""
+                />
               </div>
-              <div className="text-5xl font-medium text-white w-[44%]">
+              <div className="md:text-5xl text-2xl font-medium text-white lg:w-[44%]">
                 Textiles shed microfibers during use and washing, which can
                 enter the environment and the food chain, causing pollution.
               </div>
@@ -49,11 +55,11 @@ function CardFive() {
                   <div className="bg-emerald-600 pb-2.5">
                     <img className="w-full" src={item.pic} alt="" />
                   </div>
-                  <div className="px-10 py-10 bg-white">
-                    <div className="text-md font-medium text-emerald-600 mb-3.5">
+                  <div className="md:px-10 px-5 md:py-10 pt-7 pb-11 bg-white">
+                    <div className="text-md font-medium text-emerald-600 md:mb-3.5 mb-5">
                       {item.number}
                     </div>
-                    <div className="text-4xl font-bold text-slate-900 mb-2.5">
+                    <div className="text-4xl font-bold text-slate-900 md:mb-10 mb-5">
                       {item.name}
                     </div>
                     <div className="text-md font-medium text-slate-900">

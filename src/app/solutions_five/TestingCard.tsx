@@ -1,25 +1,26 @@
+import ArticleCard, {ArticleCardProps} from "@/components/common/ArticleCard";
 import React from "react";
 
-const cardsGroup = [
+const cardsGroup: ArticleCardProps[] = [
   {
-    pic: "/picture/Mask group (23).png",
-    number: "# 1",
-    name: "Testing and evaluation",
-    title:
+    thumbnail: "/picture/Mask group (23).png",
+    index: 1,
+    title: "Testing and evaluation",
+    content:
       "A microfiber shedding rate test revealed that monofilament sheds fewer fibers than multifilament.",
   },
   {
-    pic: "/picture/Mask group (24).png",
-    number: "# 2",
-    name: "Smooth and low friction",
-    title:
+    thumbnail: "/picture/Mask group (24).png",
+    index: 2,
+    title: "Smooth and low friction",
+    content:
       "Monofilaments are less prone to surface abrasion and microfiber shedding during the manufacturing process and while in use.",
   },
   {
-    pic: "/picture/Mask group (25).png",
-    number: "# 3",
-    name: "Made to last",
-    title:
+    thumbnail: "/picture/Mask group (25).png",
+    index: 3,
+    title: "Made to last",
+    content:
       "Under the same denier, monofilaments have a lower breakage probability than multifilaments.",
   },
 ];
@@ -27,30 +28,15 @@ const cardsGroup = [
 function TestingCard() {
   return (
     <div>
-      <div className="-mt-[74px] relative">
+      <div className="lg:-mt-[6%] -mt-[12%] mb-8 lg:mb-0">
         <img className="w-full" src="/picture/Vector (4).svg" alt="" />
-        <div className="container">
-          <div className="absolute top-[156px]">
-            <div className="flex lg:flex-row flex-col gap-6 rounded-xl">
-              {cardsGroup.map((item, index) => (
-                <div key={index} className="lg:max-w-[398px] rounded-xl">
-                  <div className="bg-emerald-600 pb-2.5">
-                    <img className="w-full" src={item.pic} alt="" />
-                  </div>
-                  <div className="px-10 py-10 bg-[rgba(11,_11,_43,_0.05)]">
-                    <div className="text-md font-medium text-emerald-600 mb-3.5">
-                      {item.number}
-                    </div>
-                    <div className="text-4xl font-bold text-slate-900 mb-2.5 max-w-[242px]">
-                      {item.name}
-                    </div>
-                    <div className="text-md font-medium text-slate-900">
-                      {item.title}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+      </div>
+      <div className="container">
+        <div className="lg:-mt-[19%] mg:pb-[103px] pb-[70px]">
+          <div className="grid lg:grid-cols-3 gap-6 rounded-xl">
+            {cardsGroup.map((item, index) => (
+              <ArticleCard {...item} index={index + 1} key={index} />
+            ))}
           </div>
         </div>
       </div>

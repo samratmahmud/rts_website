@@ -6,18 +6,22 @@ const pictureGroup = [
   {
     pic: "/picture/Mask group (14).png",
     name: "Footwear",
+    name2: "Footwear fabric",
   },
   {
     pic: "/picture/Mask group (15).png",
     name: "Outerwear",
+    name2: "Coat and windbreaker fabric",
   },
   {
     pic: "/picture/Mask group (16).png",
     name: "Bags",
+    name2: "Bag fabric",
   },
   {
     pic: "/picture/Mask group (17).png",
     name: "Outdoor equipment",
+    name2: "Outdoor equipment fabric",
   },
 ];
 
@@ -34,8 +38,11 @@ function Application() {
           <div key={index} className="">
             <div className="relative">
               <img className="w-full" src={item.pic} alt="" />
-              <div className="absolute top-[50%] md:text-8xl text-lg font-[350px] text-white lg:text-center left-0 right-0 -translate-y-[50%] ml-4 lg:ml-0">
+              <div className="absolute top-[50%] text-8xl font-[350px] text-white text-center left-0 right-0 -translate-y-[50%] ml-4 lg:ml-0 hidden lg:block">
                 {item.name}
+              </div>
+              <div className="absolute top-[50%] text-lg font-[350px] text-white text-left left-0 right-0 -translate-y-[50%] ml-4 lg:ml-0 lg:hidden">
+                {item.name2}
               </div>
             </div>
           </div>
