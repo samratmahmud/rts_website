@@ -10,7 +10,6 @@ import Footer from "../../components/global/Footer";
 function page() {
   return (
     <div>
-      <Navbar />
       <HeaderFive />
       <CardFive />
       <Parsenteg />

@@ -10,7 +10,6 @@ import Despite from "./Recovary";
 function page() {
   return (
     <div>
-      <Navbar />
       <HeaderFour />
       <CardsFour />
       <PlasticMono />

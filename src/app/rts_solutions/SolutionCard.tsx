@@ -54,7 +54,7 @@ function SolutionCard() {
                       backgroundImage: `linear-gradient(#5d5b5b,#151515)`,
                     }}
                   ></div>
-                  <div className="md:text-8xl text-4xl font-bold text-emerald-600 max-w-[457px] text-center m-auto absolute top-1/2 -translate-y-1/3 lg:-translate-y-0 left-5 right-5 bottom-0 justify-center">
+                  <div className="md:text-8xl text-4xl font-bold text-emerald-600 max-w-[457px] text-center m-auto absolute top-1/2 -translate-y-1/3 left-5 right-5 bottom-0 justify-center">
                     {item.name}
                   </div>
                 </div>

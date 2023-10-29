@@ -8,8 +8,7 @@ import Solving from "./Solving";
 
 function page() {
   return (
-    <div className="">
-      <Navbar />
+    <div>
       <SolutionHeader />
       <Solving />
       <SolutionCard />

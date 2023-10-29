@@ -34,7 +34,7 @@ const navLink = [
         urls: "/solutions_four",
       },
       {
-        names: "Solutions Four",
+        names: "Solutions Five",
         urls: "/solutions_five",
       },
     ],
@@ -80,10 +80,10 @@ function Navbar() {
                       item.url.map((feature, index) => (
                         <div
                           key={index}
-                          className="py-2.5 px-5 hover:bg-slate-800 first:rounded-t-lg last:rounded-b-lg bg-slate-700"
+                          className="py-2.5 px-5 hover:bg-slate-800 first:rounded-t-lg last:rounded-b-lg bg-slate-900"
                         >
                           <Link href={feature.urls}>
-                            <div className="text-lg font-medium text-white hover:text-emerald-600 duration-300 whitespace-nowrap">
+                            <div className="text-xl font-medium text-white hover:text-emerald-600 duration-300 whitespace-nowrap">
                               {feature.names}
                             </div>
                           </Link>
@@ -127,10 +127,10 @@ function Navbar() {
                         item.url.map((feature, index) => (
                           <div
                             key={index}
-                            className="py-2.5 px-5 hover:bg-slate-800 first:rounded-t-lg last:rounded-b-lg bg-slate-700"
+                            className="py-2.5 px-5 hover:bg-slate-800 first:rounded-t-lg last:rounded-b-lg bg-slate-900"
                           >
                             <Link href={feature.urls}>
-                              <div className="text-lg font-medium text-white hover:text-emerald-600 duration-300 whitespace-nowrap">
+                              <div className="text-xl font-medium text-white hover:text-emerald-600 duration-300 whitespace-nowrap">
                                 {feature.names}
                               </div>
                             </Link>

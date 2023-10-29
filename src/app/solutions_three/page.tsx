@@ -9,7 +9,6 @@ import BussinesPartnerCard from "./BussinesPartnerCard";
 function page() {
   return (
     <div>
-      <Navbar />
       <Header_three />
       <Card_three />
       <SolvingProblem />

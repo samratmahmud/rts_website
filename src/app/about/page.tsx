@@ -9,7 +9,6 @@ import Footer from "../../components/global/Footer";
 function page() {
   return (
     <div>
-      <Navbar />
       <AboutHeader />
       <Vision />
       <InputFile />
