@@ -50,7 +50,7 @@ function Card() {
           className="lg:relative bg-card2 lg:[background-image:none] bg-no-repeat bg-cover z-0 relative"
         >
           <div className="lg:flex gap-20 items-center mb-24 -translate-y-[20%] lg:-translate-y-0">
-            <div className="lg:max-w-[482px] bg-white md:py-10 pt-[77px] pb-14 px-5 lg:ml-24 mx-4 lg:mx-0 z-20 relative">
+            <div className="lg:max-w-[482px] bg-white md:py-10 pt-[77px] pb-14 px-5 lg:ml-24 mx-4 lg:mx-0">
               <div className="md:text-19xl text-16xl font-bold md:text-emerald-600 text-slate-900 md:mb-5 mb-2 text-right md:text-left">
                 2.
               </div>
@@ -72,7 +72,7 @@ function Card() {
                 <Button name="Find out More" />
               </div>
             </div>
-            <div className="col-span-6 hidden lg:block">
+            <div className="hidden lg:block mr-20">
               <img src="/picture/RTS_RetainToSustain45 1.png" alt="" />
             </div>
             <div className="absolute -bottom-14 hidden lg:block z-10">

@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import {features} from "process";
 import React from "react";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
@@ -11,19 +12,40 @@ const navLink = [
   },
   {
     name: "Issues",
-    url: "/solutions_two",
+    url: "/",
   },
   {
     name: "RTS Solutions",
-    url: "/rts_solutions",
+    url: [
+      {
+        names: "Solutions One",
+        urls: "/rts_solutions",
+      },
+      {
+        names: "Solutions Two",
+        urls: "/solutions_two",
+      },
+      {
+        names: "Solutions Three",
+        urls: "/solutions_three",
+      },
+      {
+        names: "Solutions Four",
+        urls: "/solutions_four",
+      },
+      {
+        names: "Solutions Four",
+        urls: "/solutions_five",
+      },
+    ],
   },
   {
     name: "FAQ",
-    url: "/solutions_three",
+    url: "/",
   },
   {
     name: "Contact",
-    url: "/solutions_four",
+    url: "/",
   },
 ];
 
@@ -38,17 +60,36 @@ function Navbar() {
       <div className="relative z-[1020]">
         <div className="flex justify-between absolute lg:z-[1020] top-0 items-center gap-5 left-0 right-0 lg:px-6">
           <Link href={"/"} className="lg:mt-11 mt-6 lg:mb-16 mb-8">
-            <img className="h-[26px]" src="/picture/Group.svg" alt="" />
+            <img
+              className="h-[26px] md:h-full"
+              src="/picture/Group.svg"
+              alt=""
+            />
           </Link>
           <div className="hidden lg:block">
             <div className="flex gap-11">
               {navLink.map((item, index) => (
-                <div key={index}>
-                  <Link href={item.url}>
+                <div key={index} className="relative group">
+                  <Link href={Array.isArray(item.url) ? "" : item.url}>
                     <div className="text-lg font-medium text-white hover:text-emerald-600 duration-300">
                       {item.name}
                     </div>
                   </Link>
+                  <div className="absolute hidden group-hover:block pt-2 right-[50%] translate-x-1/2">
+                    {Array.isArray(item.url) &&
+                      item.url.map((feature, index) => (
+                        <div
+                          key={index}
+                          className="py-2.5 px-5 hover:bg-slate-800 first:rounded-t-lg last:rounded-b-lg bg-slate-700"
+                        >
+                          <Link href={feature.urls}>
+                            <div className="text-lg font-medium text-white hover:text-emerald-600 duration-300 whitespace-nowrap">
+                              {feature.names}
+                            </div>
+                          </Link>
+                        </div>
+                      ))}
+                  </div>
                 </div>
               ))}
             </div>
@@ -74,13 +115,28 @@ function Navbar() {
                 {navLink.map((item, index) => (
                   <div
                     key={index}
-                    className="bg-emerald-600 hover:bg-green-600 rounded-2xl w-5/6 m-auto"
+                    className="bg-emerald-600 hover:bg-green-600 rounded-lg w-5/6 m-auto relative group z-[1280]"
                   >
-                    <Link href={item.url}>
+                    <Link href={Array.isArray(item.url) ? "" : item.url}>
                       <div className="text-lg font-semibold text-white duration-300 py-3">
                         {item.name}
                       </div>
                     </Link>
+                    <div className="absolute hidden group-hover:block pt-2 right-[50%] translate-x-1/2 z-[1120]">
+                      {Array.isArray(item.url) &&
+                        item.url.map((feature, index) => (
+                          <div
+                            key={index}
+                            className="py-2.5 px-5 hover:bg-slate-800 first:rounded-t-lg last:rounded-b-lg bg-slate-700"
+                          >
+                            <Link href={feature.urls}>
+                              <div className="text-lg font-medium text-white hover:text-emerald-600 duration-300 whitespace-nowrap">
+                                {feature.names}
+                              </div>
+                            </Link>
+                          </div>
+                        ))}
+                    </div>
                   </div>
                 ))}
               </div>
