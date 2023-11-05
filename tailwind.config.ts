@@ -53,6 +53,7 @@ const config: Config = {
     fontFamily: {
       "regulator-nova": ["'Regulator Nova'", ...fontFamily.sans],
       "roc-grotesk": ["'Roc Grotesk'", ...fontFamily.sans],
+      abeezee: ["'ABeeZee'", ...fontFamily.sans],
       inter: ["'Inter'", ...fontFamily.sans],
     },
     backgroundImage: {

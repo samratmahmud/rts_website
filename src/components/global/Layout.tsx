@@ -8,7 +8,7 @@ interface layoutProps {
 function Layout(props: layoutProps) {
   const {children} = props;
   return (
-    <section>
+    <section className="bg-transparent">
       <Navbar />
       {children}
     </section>

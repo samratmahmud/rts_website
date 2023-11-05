@@ -4,8 +4,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
-      <div className="bg- bg-slate-900">
+    <section>
+      <div className="bg-slate-900">
         <div className="container pt-[77px] pb-14">
           <div className="md:text-15xl text-4xl font-medium text-white max-w-[900px] m-auto text-center md:mb-12 mb-14">
             Join RTS to build a textile circular economy and beyond
@@ -52,7 +52,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

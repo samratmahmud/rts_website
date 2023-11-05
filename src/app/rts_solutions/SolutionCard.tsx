@@ -2,26 +2,26 @@ import React from "react";
 
 const cards = [
   {
-    pic: "/picture/AdobeStock_74657163_Preview 2.png",
-    name: "Low Carbon Footprint Monofilament",
+    thumbneil: "/picture/AdobeStock_74657163_Preview 2.png",
+    title: "Low Carbon Footprint Monofilament",
     p1: "RTS Solutions to",
     p2: "# Lightweighting",
   },
   {
-    pic: "/picture/Mask group (1).png",
-    name: "Monofilament With Greater Inclusivity ",
+    thumbneil: "/picture/Mask group (1).png",
+    title: "Monofilament With Greater Inclusivity ",
     p1: "RTS Solutions to",
     p2: "# Addressing the current challenges in textile recycling",
   },
   {
-    pic: "/picture/Mask group (2).png",
-    name: "Monofilaments For Improved Recyclability",
+    thumbneil: "/picture/Mask group (2).png",
+    title: "Monofilaments For Improved Recyclability",
     p1: "RTS Solutions to",
     p2: "# Embracing a mono-material approach",
   },
   {
-    pic: "/picture/Mask group (1).png",
-    name: "Monofilament With Higher Durability and Low Shedding",
+    thumbneil: "/picture/Mask group (1).png",
+    title: "Monofilament With Higher Durability and Low Shedding",
     p1: "RTS Solutions to",
     p2: "# Microfiber shedding",
   },
@@ -44,10 +44,10 @@ function SolutionCard() {
       <div className="container">
         <div className="">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 -mt-10 md:-mt-0">
-            {cards.map((item, index) => (
+            {cards.map(({thumbneil, title, p1, p2}, index) => (
               <div key={index} className="bg-slate-900 w-full">
                 <div className="relative">
-                  <img className="w-full" src={item.pic} alt="" />
+                  <img className="w-full" src={thumbneil} alt="" />
                   <div
                     className="w-full lg:h-6 h-3 bottom-0 absolute  text-white"
                     style={{
@@ -55,15 +55,15 @@ function SolutionCard() {
                     }}
                   ></div>
                   <div className="md:text-8xl text-4xl font-bold text-emerald-600 max-w-[457px] text-center m-auto absolute top-1/2 -translate-y-1/3 left-5 right-5 bottom-0 justify-center">
-                    {item.name}
+                    {title}
                   </div>
                 </div>
                 <div className="md:pt-3 pt-2 md:pb-5 pb-3">
                   <p className="md:text-lg text-md text-white text-center">
-                    {item.p1}
+                    {p1}
                   </p>
                   <p className="md:text-lg text-md text-white text-center">
-                    {item.p2}
+                    {p2}
                   </p>
                 </div>
               </div>

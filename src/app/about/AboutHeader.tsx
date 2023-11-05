@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutHeader() {
   return (
-    <div
+    <section
       className="bg-no-repeat bg-cover -ml-1"
       style={{backgroundImage: `url('/picture/Group 97.png')`}}
     >
@@ -26,9 +26,8 @@ function AboutHeader() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
 export default AboutHeader;
-//Vector (2).svg
