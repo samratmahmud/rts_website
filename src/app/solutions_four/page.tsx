@@ -1,11 +1,10 @@
-import Navbar from "@/components/global/Navbar";
 import React from "react";
 import HeaderFour from "./HeaderFour";
 import CardsFour from "./CardsFour";
 import PlasticMono from "./PlasticMono";
 import Application from "./Application";
 import Footer from "../../components/global/Footer";
-import Despite from "./Recovary";
+import Despite from "./Despite";
 
 function page() {
   return (

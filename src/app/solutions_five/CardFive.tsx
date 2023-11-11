@@ -42,7 +42,7 @@ function CardFive() {
                   alt=""
                 />
               </div>
-              <div className="md:text-5xl text-2xl font-medium text-white lg:w-[44%]">
+              <div className="md:text-5xl text-2xl font-medium text-white lg:w-[44%] font-regulator-nova">
                 Textiles shed microfibers during use and washing, which can
                 enter the environment and the food chain, causing pollution.
               </div>

@@ -18,7 +18,7 @@ function RtsTeam() {
                 <div className="text-21xl font-medium text-emerald-600 md:-mt-5">
                   “
                 </div>
-                <div className="md:text-8xl text-5xl font-medium text-white md:mb-7 mb-9">
+                <div className="md:text-8xl text-5xl font-medium text-white md:mb-7 mb-9 font-regulator-nova">
                   At Ri-Thai, we strive to foster and share with our customers
                   the sustainable value of our products. In 2012 we launched the
                   MonoGreenⓇ line of eco-friendly monofilament yarns. We are now

@@ -11,6 +11,7 @@ function Parsenteg() {
         <HeroBgImage
           title="We strive to produce high-quality monofilaments while also
             considering the impact of microfibers shed by our own products."
+          width="true"
         />
       </div>
       <div className="bg-[rgba(11,_11,_43,_0.05)]">

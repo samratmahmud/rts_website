@@ -8,7 +8,7 @@ import "react-modern-drawer/dist/index.css";
 const navLink = [
   {
     name: "About Retain to Sustain",
-    url: "/about",
+    url: "/about_retain",
   },
   {
     name: "Issues",
@@ -41,7 +41,7 @@ const navLink = [
   },
   {
     name: "FAQ",
-    url: "/",
+    url: "/faqs",
   },
   {
     name: "Contact",
@@ -68,25 +68,26 @@ function Navbar() {
           </Link>
           <div className="hidden lg:block">
             <div className="flex gap-11">
-              {navLink.map((item, index) => (
+              {navLink.map(({name, url}, index) => (
                 <div key={index} className="relative group">
-                  <Link href={Array.isArray(item.url) ? "" : item.url}>
+                  <Link href={Array.isArray(url) ? "" : url}>
                     <div className="text-lg font-medium text-white hover:text-emerald-600 duration-300">
-                      {item.name}
+                      {name}
                     </div>
                   </Link>
                   <div className="absolute hidden group-hover:block pt-2 right-[50%] translate-x-1/2">
-                    {Array.isArray(item.url) &&
-                      item.url.map((feature, index) => (
+                    {Array.isArray(url) &&
+                      url.map(({urls, names}, index) => (
                         <div
                           key={index}
-                          className="py-2.5 px-5 hover:bg-slate-800 first:rounded-t-lg last:rounded-b-lg bg-slate-900"
+                          className="hover:bg-slate-800 first:rounded-t-lg last:rounded-b-lg bg-slate-900 group"
                         >
-                          <Link href={feature.urls}>
-                            <div className="text-xl font-medium text-white hover:text-emerald-600 duration-300 whitespace-nowrap">
-                              {feature.names}
+                          <Link href={urls}>
+                            <div className="text-xl font-medium text-white hover:text-emerald-600 duration-300 whitespace-nowrap mb- font-roc-grotesk py-3 px-5 group-last:pb-3">
+                              {names}
                             </div>
                           </Link>
+                          <hr className="border-2 border-emerald-600 group-last:hidden" />
                         </div>
                       ))}
                   </div>

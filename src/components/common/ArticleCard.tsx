@@ -41,7 +41,9 @@ function ArticleCard(props: ArticleCardProps) {
         </div>
         <div className="text-4xl font-bold md:mb-2.5 mb-3.5">{title}</div>
         <div
-          className={`font-medium ${size === "16" ? "text-md " : "text-4xl"}`}
+          className={`font-medium font-regulator-nova ${
+            size === "16" ? "text-md " : "text-4xl"
+          }`}
         >
           {content}
         </div>

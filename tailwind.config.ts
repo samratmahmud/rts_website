@@ -42,8 +42,8 @@ const config: Config = {
       "19xl": ["80px", {lineHeight: "0.7em"}],
       "20xl": ["140px", {}],
       "21xl": ["160px", {lineHeight: "0.4em"}],
-      "64px": ["64px", {lineHeight: "1.45em"}],
-      "34px": ["34px", {lineHeight: "1.45em"}],
+      "64px": ["64px", {lineHeight: "64px"}],
+      "34px": ["34px", {lineHeight: "38px"}],
     },
     shadows: {
       sm: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -51,8 +51,8 @@ const config: Config = {
       lg: "0px 2px 2px rgba(0, 0, 0, 0.50)",
     },
     fontFamily: {
-      "regulator-nova": ["'Regulator Nova'", ...fontFamily.sans],
       "roc-grotesk": ["'Roc Grotesk'", ...fontFamily.sans],
+      "regulator-nova": ["'Regulator Nova'", ...fontFamily.sans],
       abeezee: ["'ABeeZee'", ...fontFamily.sans],
       inter: ["'Inter'", ...fontFamily.sans],
     },

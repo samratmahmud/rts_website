@@ -1,12 +1,12 @@
 import HeroBgImage from "@/components/common/HeroBgImage";
 import React from "react";
 
-function Card_three() {
+function CardThree() {
   return (
     <div>
       <div className="container">
-        <div className="flex md:flex-row flex-col md:gap-10 gap-20 justify-between max-w-[1057px] m-auto lg:py-36 mb-28">
-          <div className="md:max-w-[310px]">
+        <div className="flex md:flex-row flex-col md:gap-10 gap-20 justify-between max-w-[1057px] m-auto lg:my-36 mt-16 mb-28">
+          <div className="md:max-w-[322px]">
             <div className="flex md:gap-3 gap-1 items-center md:mb-20 mb-7 justify-center">
               <div className="md:text-21xl text-19xl font-medium text-slate-900">
                 45
@@ -58,4 +58,4 @@ function Card_three() {
   );
 }
 
-export default Card_three;
+export default CardThree;

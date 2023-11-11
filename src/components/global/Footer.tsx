@@ -31,20 +31,20 @@ function Footer() {
               >
                 info@retain2sustain.com
               </div>
-              <div className="text-md font-medium text-slate-900 md:mb-5 text-center md:text-left">
+              <div className="text-md font-medium text-slate-900 md:mb-5 text-center md:text-left font-regulator-nova">
                 7th Fl., 186 Nanking E. Rd., Sec. 4, Songshan Dist., Taipei
                 105407, Taiwan
               </div>
               <div
                 role="button"
-                className="text-md font-medium text-slate-900 md:mb-7 mb-14 flex md:flex-col justify-center gap-2 md:gap-0"
+                className="text-md font-medium text-slate-900 md:mb-7 mb-14 flex md:flex-col justify-center gap-2 md:gap-0 font-regulator-nova"
               >
                 <p>TEL 886-2-25786188</p> <p className="md:hidden"> / </p>{" "}
                 <p>FAX 886-2-25796388</p>
               </div>
               <div
                 role="button"
-                className="md:text-md text-xs font-medium text-slate-900 text-center  md:text-left"
+                className="md:text-md text-xs font-medium text-slate-900 text-center  md:text-left font-regulator-nova"
               >
                 Copyright © 2023 RTS. All Rights Reserved.
               </div>

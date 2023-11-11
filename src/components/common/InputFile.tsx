@@ -32,13 +32,13 @@ function InputFile() {
               ></textarea>
               <div className="flex items-center md:gap-4 gap-2 mb-4">
                 <input className="w-4 h-4" type="checkbox" />
-                <span className="text-md font-medium text-slate-900">
+                <span className="text-md font-medium text-slate-900 font-regulator-nova">
                   Tick to agree to the “Privacy Policy”
                 </span>
               </div>
               <div
                 role="button"
-                className="bg-emerald-600 text-white inline-block rounded-full"
+                className="bg-emerald-600 text-white inline-block rounded-full px-4 md:px-0"
               >
                 <Button name="Send" />
               </div>

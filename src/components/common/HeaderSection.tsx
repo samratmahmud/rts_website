@@ -4,13 +4,14 @@ import React from "react";
 interface headerProps {
   p1: string;
   p2: string;
-  div1: string;
   title: string;
+  contain: string;
   width?: "true" | "false";
+  titleWidth?: "true" | "false";
 }
 
 function HeaderSection(props: headerProps) {
-  const {p1, p2, div1, title, width = "false"} = props;
+  const {p1, p2, contain, title, width = "false", titleWidth = "false"} = props;
 
   return (
     <div className="relative">
@@ -26,17 +27,21 @@ function HeaderSection(props: headerProps) {
             <p className="md:text-lg text-md font-medium text-white">{p1}</p>
             <p className="md:text-lg text-md font-medium text-white">{p2}</p>
           </div>
-          <div className="md:max-w-[718px] max-w-[280px]">
-            <div className="md:text-64px text-34px font-medium text-slate-900 bg-emerald-600 inline py-1 px-2.5">
-              {div1}
+          <div
+            className={`max-w-[280px] ${
+              titleWidth === "false" ? "md:max-w-3xl" : "max-w-lg"
+            }`}
+          >
+            <div className="md:text-64px text-34px font-medium text-slate-900 bg-emerald-600 -tracking-[0.96px] inline py-1 px-2.5">
+              {title}
             </div>
           </div>
           <div
-            className={`md:text-5xl text-2xl font-medium text-white drop-shadow-lg mt-10 ${
+            className={`md:text-5xl text-2xl font-medium text-white drop-shadow-lg mt-10 font-regulator-nova ${
               width === "false" ? "max-w-[720px]" : "max-w-[452px]"
             }`}
           >
-            {title}
+            {contain}
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ function SolutionHeader() {
           <div className="md:text-17xl text-9xl font-medium text-slate-900 bg-emerald-600 inline-block py-2 px-4 mb-6">
             Solutions
           </div>
-          <div className="text-5xl font-medium text-white drop-shadow-lg">
+          <div className="text-5xl font-medium text-white drop-shadow-lg font-regulator-nova">
             Leading the textile industry towards a sustainable future.
           </div>
         </div>

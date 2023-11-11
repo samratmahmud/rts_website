@@ -12,8 +12,8 @@ function HeaderFive() {
       <HeaderSection
         p1="RTS Solutions to"
         p2="# Microfiber shedding"
-        div1="Monofilament With Higher Durability and Low Shedding"
-        title="Introducing a fine, resilient monofilament with less shedding."
+        title="Monofilament With Higher Durability and Low Shedding"
+        contain="Introducing a fine, resilient monofilament with less shedding."
       />
     </div>
   );

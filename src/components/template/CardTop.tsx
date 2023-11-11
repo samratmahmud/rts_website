@@ -8,7 +8,7 @@ function CardTop() {
           <div className="md:text-21xl text-[140px] font-medium text-emerald-600 md:pt-16 pt-5 md:pl-10 -mb-24 md:-mb-0">
             “
           </div>
-          <div className="text-5xl font-medium text-white max-w-[580px] md:pt-24">
+          <div className="text-5xl font-medium text-white max-w-[580px] md:pt-24 font-regulator-nova">
             The RTS approach features low resource consumption and minimized
             environmental impact, making it a preferred sustainability strategy
             in the textile industry.

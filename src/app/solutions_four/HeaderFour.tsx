@@ -8,9 +8,10 @@ function HeaderFour() {
         <HeaderSection
           p1="RTS Solutions to"
           p2="# Embracing a mono-material approach"
-          div1=" Monofilament For Improved Recyclability"
-          title="Mono-material design allows products to be recycled more efficiently."
+          title=" Monofilaments For Improved Recyclability"
+          contain="Mono-material design allows products to be recycled more efficiently."
           width="true"
+          titleWidth="true"
         />
       </div>
       <div className="bg-[rgba(11,_11,_43,_0.05)]">
@@ -22,7 +23,7 @@ function HeaderFour() {
             <div>
               <img className="w-full" src="/picture/Group 73.png" alt="" />
             </div>
-            <div className="md:text-5xl text-2xl font-medium text-slate-900 lg:max-w-[540px]">
+            <div className="md:text-5xl text-2xl font-medium text-slate-900 lg:max-w-[540px] font-regulator-nova">
               When products with different materials are thrown away, they can
               lead to a series of interconnected environmental issues.
             </div>

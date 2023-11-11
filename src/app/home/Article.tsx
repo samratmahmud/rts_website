@@ -49,10 +49,10 @@ function Article() {
                   <div className="text-4xl font-bold text-slate-900 lg:mb-6 mb-5">
                     {title}
                   </div>
-                  <div className="text-md font-medium text-[rgba(11,_11,_43,_0.80)] mb-6">
+                  <div className="text-md font-medium text-[rgba(11,_11,_43,_0.80)] mb-6 font-regulator-nova">
                     {contain}
                   </div>
-                  <div className="text-sm font-bold text-[rgba(11,_11,_43,_0.60)]">
+                  <div className="text-sm font-bold text-[rgba(11,_11,_43,_0.60)] font-regulator-nova">
                     {date}
                   </div>
                 </div>

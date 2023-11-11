@@ -1,0 +1,18 @@
+@font-face {
+  src: url("./Fontspring-DEMO-rocgrotesk-regular.otf");
+  font-family: Roc Grotesk;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url(".//Fontspring-DEMO-rocgrotesk-medium.otf");
+  font-family: Roc Grotesk;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  src: url("./Fontspring-DEMO-rocgrotesk-bold.otf");
+  font-family: Roc Grotesk;
+  font-weight: 700;
+  font-style: normal;
+}

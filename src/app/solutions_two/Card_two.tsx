@@ -1,5 +1,4 @@
 import ArticleCard, {ArticleCardProps} from "@/components/common/ArticleCard";
-import HeaderSection from "@/components/common/HeaderSection";
 import React from "react";
 
 const cardProps: ArticleCardProps[] = [
@@ -26,28 +25,12 @@ const cardProps: ArticleCardProps[] = [
 function Card_two() {
   return (
     <section>
-      <div
-        className="bg-no-repeat bg-cover"
-        style={{
-          backgroundImage: `url('/picture/AdobeStock_74657163_Preview 1.png')`,
-        }}
-      >
-        <HeaderSection
-          p1="RTS Solutions to"
-          p2="Lightweighting"
-          div1="Monofilament with a smaller carbon footprint"
-          title="Hollow monofilament's lightweight nature reduces energy consumption, leading to a decrease in carbon emissions."
-        />
-      </div>
-      <div className="-mt-[15%] lg:mb-[52px] mb-6">
-        <img className="w-full" src="/picture/Vector (4).svg" alt="" />
-      </div>
       <div className="container">
         <div className="flex lg:flex-row flex-col lg:gap-[30px] gap-5 items-center lg:mb-32 mb-11">
           <div>
             <img src="/picture/AdobeStock_490732559_Preview.png" alt="" />
           </div>
-          <div className="md:text-5xl text-2xl font-medium text-slate-900 lg:max-w-[560px]">
+          <div className="md:text-5xl text-2xl font-medium text-slate-900 lg:max-w-[560px] font-regulator-nova">
             The consequences of climate change are disproportionately borne by
             vulnerable groups and regions, who contribute minimally to
             greenhouse gas emissions. To address this problem, we aim to make

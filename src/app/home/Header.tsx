@@ -7,7 +7,7 @@ function Header() {
         <div className="md:mb-16 mb-12 md:pt-[295px] pt-[144px]">
           <img className="m-auto" src="/picture/Group (1).svg" alt="" />
         </div>
-        <div className="md:text-15xl text-6xl font-medium text-white shadow-sm md:pb-[324px] pb-[228px] text-center">
+        <div className="md:text-15xl text-6xl font-medium text-white shadow-sm md:pb-[324px] pb-[228px] font-roc-grotesk text-center">
           Textile Circularity and Beyond
         </div>
       </div>

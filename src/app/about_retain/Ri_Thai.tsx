@@ -16,14 +16,14 @@ function Ri_Thai() {
         <div className="flex justify-center md:mb-12 mb-9">
           <img className="" src="/picture/DJI_0068_修2 1.png" alt="" />
         </div>
-        <div className="md:text-5xl text-4xl font-medium text-slate-900 mb-14 max-w-[900px] m-auto">
+        <div className="md:text-5xl text-4xl font-medium text-slate-900 mb-14 max-w-[900px] m-auto font-regulator-nova">
           Ri-Thai International Inc., a monofilament fiber expert and initiator
           of the RTS project, welcomes you to visit its website to learn more
           about the company.
         </div>
         <div
           role="button"
-          className="bg-slate-900 text-emerald-600 rounded-full max-w-[241px] m-auto"
+          className="bg-slate-900 text-emerald-600 rounded-full max-w-[241px] m-auto hover:bg-slate-700 duration-300"
         >
           <Button name="Visit Ri-Thai Website" />
         </div>

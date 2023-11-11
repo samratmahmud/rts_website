@@ -95,30 +95,29 @@ function PlasticMono() {
         </div>
         <div className="container">
           <div className="mb-9 md:mb-0">
-            {monoCards.map((item, index) => (
+            {monoCards.map(({items, name}, index) => (
               <div key={index}>
                 <div className="md:text-12xl text-7xl font-bold text-slate-900 md:pt-28 pt-9 md:mb-11 mb-6">
-                  {item.name}
+                  {name}
                 </div>
                 <div className="grid lg:grid-cols-3 gap-5">
-                  {item.items.map((card, index) => (
+                  {items.map(({pic, title, containt}, index) => (
                     <div key={index}>
                       <div className="bg-emerald-600 pb-2.5 rounded-t-3xl">
-                        <img className="w-full" src={card.pic} alt="" />
+                        <img className="w-full" src={pic} alt="" />
                       </div>
                       <div className="md:py-10 pb-11 pt-9 md:px-10 px-5 bg-white">
-                        <div className="text-4xl font-bold mb-2.5">
-                          {card.title}
-                        </div>
+                        <div className="text-4xl font-bold mb-2.5">{title}</div>
                         <div className="">
-                          {card.containt.map((feature, index) => (
-                            <div key={index} className="flex gap-2">
+                          {containt.map(({dots, text}, index) => (
+                            <div
+                              key={index}
+                              className="flex gap-2 font-regulator-nova"
+                            >
                               <div className="text-[30px] font-medium -mt-5">
-                                {feature.dots}
+                                {dots}
                               </div>
-                              <div className="text-md font-medium">
-                                {feature.text}
-                              </div>
+                              <div className="text-md font-medium">{text}</div>
                             </div>
                           ))}
                         </div>

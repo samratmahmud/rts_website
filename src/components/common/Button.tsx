@@ -6,7 +6,7 @@ interface buttonProps {
 
 function Button(props: buttonProps) {
   return (
-    <div className="text-base font-medium md:py-3.5 py-3 md:px-9 px-5 rounded-full text-center">
+    <div className="text-base font-medium md:py-3.5 py-3 md:px-9 px-5 rounded-full text-center whitespace-nowrap">
       {props.name}
     </div>
   );

@@ -7,7 +7,7 @@ interface inputBox {
 function InputName(props: inputBox) {
   return (
     <div>
-      <div className="text-md font-medium text-slate-900 mb-0.5">
+      <div className="text-md font-medium text-slate-900 mb-0.5 font-regulator-nova">
         {props.name}
       </div>
       <input

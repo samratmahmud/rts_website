@@ -1,7 +1,7 @@
 import HeaderSection from "@/components/common/HeaderSection";
 import React from "react";
 
-function Header_three() {
+function HeaderThree() {
   return (
     <section>
       <div
@@ -13,9 +13,10 @@ function Header_three() {
         <HeaderSection
           p1="RTS Solutions to"
           p2="# Addressing the current challenges in textile recycling"
-          div1="Monofilament With Greater Inclusivity"
-          title="Overcoming the challenges of synthetic textiles closed-loop recycling by using innovative, low environmental impact methods."
+          title="Monofilament With Greater Inclusivity"
+          contain="Overcoming the challenges of synthetic textiles closed-loop recycling by using innovative, low environmental impact methods."
           width="true"
+          titleWidth="true"
         />
       </div>
       <div className="bg-[rgba(11,_11,_43,_0.05)]">
@@ -27,7 +28,7 @@ function Header_three() {
             <div>
               <img src="/picture/Group 246.png" alt="" />
             </div>
-            <div className="md:text-5xl text-4xl font-medium text-slate-900 max-w-[540px]">
+            <div className="md:text-5xl text-4xl font-medium text-slate-900 max-w-[540px] font-regulator-nova">
               The manufacturing industry has now extended beyond serving its end
               users, one in which the mission has become a broader commitment to
               a circular system. In the textiles industry, the most anticipated
@@ -40,4 +41,4 @@ function Header_three() {
   );
 }
 
-export default Header_three;
+export default HeaderThree;
