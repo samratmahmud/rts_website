@@ -83,7 +83,7 @@ const QsGroup: QsGroupT[] = [
 function FaqsDetails() {
   return (
     <section className="md:mb-52 mb-28 relative z-10">
-      <div className="absolute md:bottom-[22%] bottom-[43%] -z-10">
+      <div className="absolute md:bottom-[19%] bottom-[43%] -z-10">
         <img className="w-full" src="/picture/Vector (9).png" alt="" />
       </div>
       <div className="-mt-[27%] md:-mt-[21%]">

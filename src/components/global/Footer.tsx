@@ -12,9 +12,9 @@ function Footer() {
           </div>
           <div
             role="button"
-            className="bg-emerald-600 text-base font-medium text-slate-900 rounded-full max-w-[157px] m-auto text-center"
+            className="text-slate-900 rounded-full flex justify-center"
           >
-            <Button name="Join Us" />
+            <Button className="bg-emerald-600" name="Join Us" />
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Button from "@/components/common/Button";
 import React from "react";
 
 const Brands = [
@@ -61,22 +62,25 @@ const issuesCards = [
 
 function IssuesCard() {
   return (
-    <section className="bg-slate-300/5 pb-20">
+    <section className="bg-slate-300/5 md:pb-20 pb-16 relative">
       <div className="-mt-[27%] md:-mt-[21%] relative z-0">
         <img className="w-full" src="/picture/Vector (8).png" alt="" />
       </div>
+      <div className="absolute bottom-[47%]">
+        <img src="/picture/Vector (10).png" alt="" />
+      </div>
       <div className="container -mt-[10%] md:-mt-[16%]">
-        <div className="flex flex-wrap gap-5 mb-12">
+        <div className="flex flex-wrap md:gap-5 gap-3 md:mb-12 mb-10">
           {Brands.map((item, index) => (
             <div
               key={index}
-              className="text-base font-medium px-9 py-2 relative z-0 border border-slate-900 rounded-full hover:bg-emerald-600 duration-300 hover:border-white"
+              className="md:text-base text-md tracking-normal font-medium px-9 py-2 relative z-0 border border-slate-900 rounded-full cursor-pointer hover:bg-emerald-600 duration-300 hover:border-white"
             >
               {item}
             </div>
           ))}
         </div>
-        <div className="grid lg:grid-cols-2 gap-10 relative z-10 mb-16">
+        <div className="grid lg:grid-cols-2 md:gap-10 gap-6 relative z-10 md:mb-16 mb-10">
           {issuesCards.map(
             ({thumbneil, tagName, title, contain, date, tagName2}, index) => (
               <div
@@ -85,12 +89,12 @@ function IssuesCard() {
               >
                 <div>
                   <img
-                    className="bg-cover bg-no-repeat w-full rounded-t-xl"
+                    className="bg-cover bg-no-repeat w-full rounded-t-md"
                     src={thumbneil}
                     alt=""
                   />
                 </div>
-                <div className="lg:py-12 pt-8 pb-12 lg:px-14 px-5 bg-white rounded-b-xl">
+                <div className="lg:py-12 pt-8 pb-12 lg:px-14 px-5 bg-white rounded-b-md">
                   <div className="lg:flex gap-4">
                     <div className="text-md font-medium text-emerald-600 lg:mb-3.5">
                       {tagName}
@@ -112,6 +116,15 @@ function IssuesCard() {
               </div>
             )
           )}
+        </div>
+        <div
+          role="button"
+          className="flex justify-center rounded-full text-white"
+        >
+          <Button
+            className="bg-emerald-600 hover:bg-green-500 duration-300"
+            name="Load More"
+          />
         </div>
       </div>
     </section>

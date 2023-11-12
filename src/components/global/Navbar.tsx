@@ -44,7 +44,7 @@ const navLink = [
   },
   {
     name: "Contact",
-    url: "/",
+    url: "contact",
   },
 ];
 

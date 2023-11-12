@@ -73,6 +73,8 @@ const config: Config = {
       solutions1M: "url('/picture/Mask group (28).png')",
       solutions2: "url('/picture/Mask group (7).png')",
       solutions2Mob: "url('/picture/Group 224.png')",
+      contactD: "url('/picture/Group 151.png')",
+      contactM: "url('/picture/Mask group (38).png')",
     },
     container: {
       center: true,
