@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import {features} from "process";
 import React from "react";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
@@ -12,7 +11,7 @@ const navLink = [
   },
   {
     name: "Issues",
-    url: "/",
+    url: "/issues",
   },
   {
     name: "RTS Solutions",

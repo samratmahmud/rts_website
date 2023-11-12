@@ -83,13 +83,13 @@ const QsGroup: QsGroupT[] = [
 function FaqsDetails() {
   return (
     <section className="md:mb-52 mb-28 relative z-10">
-      <div className="md:-mt-40 -mt-20">
-        <img className="w-full" src="/picture/Vector (8).png" alt="" />
-      </div>
-      <div className="absolute md:bottom-[20%] bottom-[43%] -z-10">
+      <div className="absolute md:bottom-[22%] bottom-[43%] -z-10">
         <img className="w-full" src="/picture/Vector (9).png" alt="" />
       </div>
-      <div className="container md:-mt-[18%] -mt-[10%]">
+      <div className="-mt-[27%] md:-mt-[21%]">
+        <img className="w-full" src="/picture/Vector (8).png" alt="" />
+      </div>
+      <div className="container -mt-[15%]">
         <div className="flex flex-col md:gap-24 gap-14">
           {QsGroup.map(({name, items}, index) => (
             <div key={index}>
