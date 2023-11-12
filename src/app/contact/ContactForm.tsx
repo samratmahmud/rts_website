@@ -4,13 +4,10 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <section className="">
-      <div className="relative z-0">
-        <div className="absolute -z-10">
-          <img src="/picture/AdobeStock_354009182_Preview (1).png" alt="" />
-        </div>
-        <div className="py-[70px]">
-          <div className="py-9 lg:px-7 px-5 mx-5 lg:mx-0 bg-white rounded-md md:w-1/2 m-auto">
+    <section className="bg-no-repeat bg-cover bg-contactInfo">
+      <div className="container">
+        <div className="py-20 md:max-w-[623px] m-auto">
+          <div className="py-9 lg:px-7 px-5 bg-white">
             <div className="lg:text-12xl text-7xl font-bold text-slate-900 mb-1 whitespace-nowrap lg:w-[563px]">
               Send us a message
             </div>

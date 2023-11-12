@@ -51,7 +51,7 @@ function SolutionCard() {
                   <div
                     className="w-full lg:h-6 h-3 bottom-0 absolute  text-white"
                     style={{
-                      backgroundImage: `linear-gradient(#5d5b5b,#151515)`,
+                      backgroundImage: `linear-gradient(180deg, rgba(11, 11, 43, 0.00) 0%, rgba(11, 11, 43, 0.73) 68.75%, #0B0B2B 100%)`,
                     }}
                   ></div>
                   <div className="md:text-8xl text-4xl font-bold text-emerald-600 max-w-[457px] text-center m-auto absolute top-1/2 -translate-y-1/3 left-5 right-5 bottom-0 justify-center">

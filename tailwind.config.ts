@@ -75,6 +75,7 @@ const config: Config = {
       solutions2Mob: "url('/picture/Group 224.png')",
       contactD: "url('/picture/Group 151.png')",
       contactM: "url('/picture/Mask group (38).png')",
+      contactInfo: "url('/picture/AdobeStock_354009182_Preview (1).png')",
     },
     container: {
       center: true,

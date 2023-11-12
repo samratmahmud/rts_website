@@ -115,7 +115,7 @@ function Navbar() {
                 {navLink.map((item, index) => (
                   <div
                     key={index}
-                    className="bg-emerald-600 hover:bg-green-600 rounded-lg w-5/6 m-auto relative group z-[1280]"
+                    className="bg-emerald-600 hover:bg-green-500 rounded-full w-full m-auto relative group z-[1280]"
                   >
                     <Link href={Array.isArray(item.url) ? "" : item.url}>
                       <div className="text-lg font-semibold text-white duration-300 py-3">
