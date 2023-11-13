@@ -1,20 +1,19 @@
-import Navbar from "@/components/global/Navbar";
 import React from "react";
-import Card_two from "./Card_two";
-import AirplanSection from "./AirplanSection";
+import AirplanSection from "./AirplaneSection";
 import Footer from "../../components/global/Footer";
-import Committed from "./Committed";
 import HeaderTwo from "./HeaderTwo";
+import CardTwo from "./CardTwo";
+import HeroSection from "./HeroSection";
 
 function page() {
   return (
-    <div>
+    <main>
       <HeaderTwo />
-      <Card_two />
-      <Committed />
+      <CardTwo />
+      <HeroSection />
       <AirplanSection />
       <Footer />
-    </div>
+    </main>
   );
 }
 

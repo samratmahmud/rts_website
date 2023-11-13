@@ -28,28 +28,21 @@ const cards4: ArticleCardProps[] = [
 
 function CardsFour() {
   return (
-    <div>
-      <div className="bg-[rgba(11,_11,_43,_0.05)] pb-3 md:pb-0">
-        <div className="container">
-          <div className="flex lg:flex-row flex-col justify-between gap-5 nd:pb-32 pb-24">
-            {cards4.map((item, index) => (
-              <ArticleCard
-                theme="dark"
-                {...item}
-                index={index + 1}
-                key={index}
-              />
-            ))}
-          </div>
-        </div>
-        <div
-          className="bg-no-repeat bg-cover"
-          style={{backgroundImage: `url('picture/Group 116.png')`}}
-        >
-          <HeroBgImage title="The RTS circular design mindset is all about using mono-material in products to be able concentrate on the re-usability and efficient resource utilization." />
+    <section className="bg-[rgba(11,_11,_43,_0.05)] pb-3 md:pb-0">
+      <div className="container">
+        <div className="flex lg:flex-row flex-col justify-between gap-5 nd:pb-32 pb-24">
+          {cards4.map((item, index) => (
+            <ArticleCard theme="dark" {...item} index={index + 1} key={index} />
+          ))}
         </div>
       </div>
-    </div>
+      <div
+        className="bg-no-repeat bg-cover"
+        style={{backgroundImage: `url('picture/Group 116.png')`}}
+      >
+        <HeroBgImage title="The RTS circular design mindset is all about using mono-material in products to be able concentrate on the re-usability and efficient resource utilization." />
+      </div>
+    </section>
   );
 }
 

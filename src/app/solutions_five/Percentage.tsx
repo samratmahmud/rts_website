@@ -1,9 +1,9 @@
 import HeroBgImage from "@/components/common/HeroBgImage";
 import React from "react";
 
-function Parsenteg() {
+function Percentage() {
   return (
-    <div>
+    <section>
       <div
         className="w-full"
         style={{backgroundImage: `url('/picture/Rectangle 63.png')`}}
@@ -48,8 +48,8 @@ function Parsenteg() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default Parsenteg;
+export default Percentage;

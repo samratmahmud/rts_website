@@ -22,7 +22,7 @@ const cardProps: ArticleCardProps[] = [
   },
 ];
 
-function Card_two() {
+function CardTwo() {
   return (
     <section>
       <div className="container">
@@ -51,4 +51,4 @@ function Card_two() {
   );
 }
 
-export default Card_two;
+export default CardTwo;

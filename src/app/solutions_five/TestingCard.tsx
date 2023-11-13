@@ -27,7 +27,7 @@ const cardsGroup: ArticleCardProps[] = [
 
 function TestingCard() {
   return (
-    <div>
+    <section>
       <div className="lg:-mt-[6%] -mt-[12%] mb-8 lg:mb-0">
         <img className="w-full" src="/picture/Vector (4).svg" alt="" />
       </div>
@@ -40,7 +40,7 @@ function TestingCard() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

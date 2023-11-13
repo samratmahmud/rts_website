@@ -17,7 +17,7 @@ const planeCards = [
 
 function AirplanSection() {
   return (
-    <div className="relative lg:mb-44 mb-16">
+    <section className="relative lg:mb-44 mb-16">
       <div className="absolute lg:top-1/4 top-[45%] -z-10">
         <img
           className="w-screen hidden lg:block"
@@ -63,7 +63,7 @@ function AirplanSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

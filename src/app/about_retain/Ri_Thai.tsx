@@ -3,7 +3,7 @@ import React from "react";
 
 function Ri_Thai() {
   return (
-    <div>
+    <section>
       <div
         className="bg-no-repeat bg-cover"
         style={{backgroundImage: `url('/picture/Group 102.png')`}}
@@ -28,7 +28,7 @@ function Ri_Thai() {
           <Button name="Visit Ri-Thai Website" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

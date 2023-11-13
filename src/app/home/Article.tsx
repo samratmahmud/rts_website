@@ -21,7 +21,7 @@ const articlePage = [
 
 function Article() {
   return (
-    <div className="bg-[rgba(11,_11,_43,_0.05)]">
+    <section className="bg-[rgba(11,_11,_43,_0.05)]">
       <div className="container lg:pb-24 pb-14 md:pt-[118px] pt-12">
         <div className="md:text-12xl text-7xl font-bold text-slate-900 lg:mb-9 mb-10">
           Latest articles
@@ -61,7 +61,7 @@ function Article() {
           )}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

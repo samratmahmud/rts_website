@@ -1,17 +1,17 @@
 import React from "react";
 import HeaderFour from "./HeaderFour";
 import CardsFour from "./CardsFour";
-import PlasticMono from "./PlasticMono";
 import Application from "./Application";
 import Footer from "../../components/global/Footer";
 import Despite from "./Despite";
+import MonoCards from "./MonoCards";
 
 function page() {
   return (
     <div>
       <HeaderFour />
       <CardsFour />
-      <PlasticMono />
+      <MonoCards />
       <Despite />
       <Application />
       <Footer />

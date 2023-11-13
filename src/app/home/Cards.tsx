@@ -4,7 +4,7 @@ import React from "react";
 
 function Cards() {
   return (
-    <div className="">
+    <section>
       <div>
         <CardTop />
       </div>
@@ -154,7 +154,7 @@ function Cards() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

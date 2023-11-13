@@ -1,7 +1,7 @@
 import {title} from "process";
 import React from "react";
 
-const monoCards = [
+const monoCardData = [
   {
     name: "Thermoplastic Elastomer Mono.",
     items: [
@@ -86,16 +86,16 @@ const monoCards = [
   },
 ];
 
-function PlasticMono() {
+function MonoCards() {
   return (
-    <div className="bg-[rgba(11,_11,_43,_0.05)]">
+    <section className="bg-[rgba(11,_11,_43,_0.05)]">
       <div className="relative">
         <div className="absolute -z-10 lg:top-[64%] top-[45%] w-full">
           <img className="w-full" src="/picture/Vector (4).svg" alt="" />
         </div>
         <div className="container">
           <div className="mb-9 md:mb-0">
-            {monoCards.map(({items, name}, index) => (
+            {monoCardData.map(({items, name}, index) => (
               <div key={index}>
                 <div className="md:text-12xl text-7xl font-bold text-slate-900 md:pt-28 pt-9 md:mb-11 mb-6">
                   {name}
@@ -155,8 +155,8 @@ function PlasticMono() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default PlasticMono;
+export default MonoCards;

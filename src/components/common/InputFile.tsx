@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function InputFile() {
   return (
-    <div className="lg:flex lg:gap-12 gap-5 items-center bg-inputbg bg-no-repeat bg-cover lg:[background-image:none]">
+    <section className="lg:flex lg:gap-12 gap-5 items-center bg-inputbg bg-no-repeat bg-cover lg:[background-image:none]">
       <div className="hidden lg:block w-[47%]">
         <img
           className="w-full"
@@ -46,7 +46,7 @@ function InputFile() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

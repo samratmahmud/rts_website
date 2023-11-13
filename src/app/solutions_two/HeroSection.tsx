@@ -2,9 +2,9 @@ import HeroBgImage from "@/components/common/HeroBgImage";
 import UserProfile from "@/components/common/Userprofile";
 import React from "react";
 
-function Committed() {
+function HeroSection() {
   return (
-    <div>
+    <section>
       <div
         className="md:mb-48 mb-14 bg-no-repeat bg-cover"
         style={{backgroundImage: `url('/picture/Mask group (3).png')`}}
@@ -26,8 +26,8 @@ function Committed() {
           <img src="/picture/Vector (1).svg" alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default Committed;
+export default HeroSection;

@@ -3,7 +3,7 @@ import React from "react";
 
 function HeaderFive() {
   return (
-    <div
+    <section
       className="bg-no-repeat bg-cover"
       style={{
         backgroundImage: `url('/picture/Mask group (18).png')`,
@@ -15,7 +15,7 @@ function HeaderFive() {
         title="Monofilament With Higher Durability and Low Shedding"
         contain="Introducing a fine, resilient monofilament with less shedding."
       />
-    </div>
+    </section>
   );
 }
 

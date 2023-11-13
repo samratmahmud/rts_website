@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="bg-no-repeat bg-cover md:bg-homePage bg-homePageMV">
+    <section className="bg-no-repeat bg-cover md:bg-homePage bg-homePageMV">
       <div className="container">
         <div className="md:mb-16 mb-12 md:pt-[295px] pt-[144px]">
           <img
@@ -15,7 +15,7 @@ function Header() {
           Textile Circularity and Beyond
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 
 function HeaderFour() {
   return (
-    <div>
+    <section>
       <div className="bg-no-repeat bg-cover lg:bg-solutions2 bg-solutions2Mob">
         <HeaderSection
           p1="RTS Solutions to"
@@ -30,7 +30,7 @@ function HeaderFour() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

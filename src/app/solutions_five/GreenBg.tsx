@@ -3,7 +3,7 @@ import React from "react";
 
 function GreenBg() {
   return (
-    <div className="">
+    <section>
       <div className="relative">
         <div className="mt-8">
           <img
@@ -37,7 +37,7 @@ function GreenBg() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

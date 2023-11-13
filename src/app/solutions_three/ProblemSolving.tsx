@@ -1,9 +1,9 @@
 import UserProfile from "@/components/common/Userprofile";
 import React from "react";
 
-function SolvingProblem() {
+function ProblemSolving() {
   return (
-    <div>
+    <section>
       <div className="container md:mb-16 mb-3">
         <UserProfile
           pic="/picture/Group 252.png"
@@ -27,8 +27,8 @@ function SolvingProblem() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default SolvingProblem;
+export default ProblemSolving;
